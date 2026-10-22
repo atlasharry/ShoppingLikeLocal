@@ -1,0 +1,114 @@
+{
+  "clock": "UTC",
+  "timestamp_semantics": "UTC wall-clock observations from coordinator; no fabricated historic timestamps; file mtimes recorded separately and not treated as exact model timing",
+  "events": [
+    {
+      "event": "freeze_completed",
+      "observed_at_utc": "2026-10-22T15:31:39.157335+00:00"
+    },
+    {
+      "event": "solver_spawn_returned",
+      "case_id": "c01",
+      "observed_at_utc": "2026-10-22T15:32:33.032935+00:00",
+      "time_semantics": "coordinator observation after spawn returned; not exact model-start time"
+    },
+    {
+      "event": "solver_spawn_returned",
+      "case_id": "c02",
+      "observed_at_utc": "2026-10-22T15:32:33.033166+00:00",
+      "time_semantics": "coordinator observation after spawn returned; not exact model-start time"
+    },
+    {
+      "event": "solver_completion_observed",
+      "case_id": "c02",
+      "observed_at_utc": "2026-10-22T15:33:45.129453+00:00",
+      "answer_sha256": "4bc5d96dc9855ce3155101263c012d2dfa8f2b2e913b42e3095c178826cb3c11",
+      "answer_mtime_utc": "2026-10-22T15:33:20.316257+00:00"
+    },
+    {
+      "event": "solver_spawn_returned",
+      "case_id": "c03",
+      "observed_at_utc": "2026-10-22T15:34:03.358546+00:00",
+      "time_semantics": "coordinator observation after spawn returned; not exact model-start time"
+    },
+    {
+      "event": "solver_completion_observed",
+      "case_id": "c01",
+      "observed_at_utc": "2026-10-22T15:34:03.358833+00:00",
+      "answer_sha256": "da22b4c6e05f84514c30b5652f2a5d5c089f6345cbec7d5c4cfc632eda020316",
+      "answer_mtime_utc": "2026-10-22T15:33:34.955805+00:00"
+    },
+    {
+      "event": "solver_spawn_returned",
+      "case_id": "c04",
+      "observed_at_utc": "2026-10-22T15:34:27.563239+00:00",
+      "time_semantics": "coordinator observation after spawn returned; not exact model-start time"
+    },
+    {
+      "event": "solver_completion_observed",
+      "case_id": "c03",
+      "observed_at_utc": "2026-10-22T15:35:01.472171+00:00",
+      "answer_sha256": "de818152229816ecad75e2cb450de369e029632d762ec8bfb2f4459e4b10602f",
+      "answer_mtime_utc": "2026-10-22T15:34:33.989513+00:00"
+    },
+    {
+      "event": "solver_spawn_returned",
+      "case_id": "c05",
+      "observed_at_utc": "2026-10-22T15:35:24.017395+00:00",
+      "time_semantics": "coordinator observation after spawn returned; not exact model-start time"
+    },
+    {
+      "event": "solver_completion_observed",
+      "case_id": "c04",
+      "observed_at_utc": "2026-10-22T15:36:08.493853+00:00",
+      "answer_sha256": "28ccc012996b737f2c96820da08003b95dfd4c5a389011ca4a79a14ffd6d0a3f",
+      "answer_mtime_utc": "2026-10-22T15:35:43.689691+00:00"
+    },
+    {
+      "event": "solver_spawn_returned",
+      "case_id": "c06",
+      "observed_at_utc": "2026-10-22T15:36:34.728927+00:00",
+      "time_semantics": "coordinator observation after spawn returned; not exact model-start time"
+    },
+    {
+      "event": "solver_completion_observed",
+      "case_id": "c05",
+      "observed_at_utc": "2026-10-22T15:36:34.729167+00:00",
+      "answer_sha256": "f16be3ace970240b602be0badf38823cc8f312c029e6ee15014a27cda839318c",
+      "answer_mtime_utc": "2026-10-22T15:36:10.054648+00:00"
+    },
+    {
+      "event": "solver_spawn_returned",
+      "case_id": "c07",
+      "observed_at_utc": "2026-10-22T15:37:31.462041+00:00",
+      "time_semantics": "coordinator observation after spawn returned; not exact model-start time"
+    },
+    {
+      "event": "solver_completion_observed",
+      "case_id": "c06",
+      "observed_at_utc": "2026-10-22T15:37:52.774535+00:00",
+      "answer_sha256": "ba8737c4f7b70262213bc0f790bcd7e4b8a0179eb61f2d98b77ee172692896dc",
+      "answer_mtime_utc": "2026-10-22T15:37:32.765571+00:00"
+    },
+    {
+      "event": "solver_spawn_returned",
+      "case_id": "c08",
+      "observed_at_utc": "2026-10-22T15:38:21.317837+00:00",
+      "time_semantics": "coordinator observation after spawn returned; not exact model-start time"
+    },
+    {
+      "event": "solver_completion_observed",
+      "case_id": "c07",
+      "observed_at_utc": "2026-10-22T15:38:42.938244+00:00",
+      "answer_sha256": "a865273d099540113aad440c57bab1c7613249bf371e8187f0b972ab6d4dc797",
+      "answer_mtime_utc": "2026-10-22T15:38:19.092656+00:00"
+    },
+    {
+      "event": "solver_completion_observed",
+      "case_id": "c08",
+      "observed_at_utc": "2026-10-22T15:40:28.402445+00:00",
+      "answer_sha256": "18793a5ce6da6d6d3f2cd06ef9d0ea471e59a5ae7a580507054e21d442e1db09",
+      "answer_mtime_utc": "2026-10-22T15:39:40.724032+00:00"
+    }
+  ]
+}

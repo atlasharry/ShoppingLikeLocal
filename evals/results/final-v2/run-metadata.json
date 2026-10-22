@@ -1,0 +1,19 @@
+{
+  "run_label": "final-v2",
+  "instruction_version_known_to_grader": true,
+  "solver_context": "fresh per case; fork_turns=none; one case only",
+  "max_concurrent_solvers": 2,
+  "model": "unavailable: exact effective model identifier is not exposed in delegated run result",
+  "reasoning_effort": "unavailable: exact effective setting is not exposed in delegated run result",
+  "sampling_settings": "unavailable",
+  "rubric_sha256": "e5ec184e284865e5a86b12c9063f0920eeae75266c0161258babb11f155e59e3",
+  "test_scope": "synthetic offline forward-testing; no web, browser/UI, account actions, contact, purchases or push",
+  "timestamps": "UTC wall-clock observations from coordinator; no fabricated historic timestamps; file mtimes recorded separately and not treated as exact model timing",
+  "baseline_scope": "v1-baseline.md only c07 and c08, existing outputs, historical invocation metadata unavailable",
+  "grader_authored_solver_answers": false,
+  "grader_version_known": true,
+  "grader_saw_prior_report_summary": true,
+  "prior_summary_exposure": "Agent inventory displayed an earlier review score summary. This grader independently inspected final run answers against source materials and recomputed numerical results. The run is not blind grading.",
+  "isolation_enforcement": "Fresh-context per-case prompts and instructions; shared filesystem, not an OS access-control sandbox. Solver full tool traces are not exposed to this coordinator.",
+  "pass_definition": "Descriptive pass means all applicable rubric items receive full credit and no cap is triggered. The provided rubric has no preregistered binary pass threshold; none is invented."
+}

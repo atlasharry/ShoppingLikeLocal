@@ -1,0 +1,963 @@
+{
+  "run_label": "final-v2",
+  "generated_at_utc": "2026-10-22T15:43:20.659462+00:00",
+  "grading_method": "Manual semantic comparison of saved answers against source evidence, with independent Decimal arithmetic; no keyword scoring.",
+  "grader_version_known": true,
+  "grader_blind": false,
+  "grader_saw_prior_report_summary": true,
+  "source_cases_sha256": "c72870a2667650fa13c3eab8b032bdd81b188c93a449cf0190b336d5a64131c7",
+  "source_case_count": 8,
+  "scored_item_count": 46,
+  "total_score": 800,
+  "max_total_score": 800,
+  "equal_weight_mean": 100.0,
+  "fully_satisfied_cases": 8,
+  "pass_definition": "Descriptive pass means all applicable rubric items receive full credit and no cap is triggered. The provided rubric has no preregistered binary pass threshold; none is invented.",
+  "cases": [
+    {
+      "case_id": "c01",
+      "category": "空气净化器",
+      "answer_path": "answers/c01.md",
+      "answer_sha256": "da22b4c6e05f84514c30b5652f2a5d5c089f6345cbec7d5c4cfc632eda020316",
+      "score": 100,
+      "max_score": 100,
+      "pass": true,
+      "caps_triggered": [],
+      "substantive_issues": [],
+      "criteria": [
+        {
+          "criterion_id": "price",
+          "score": 20,
+          "weight": 20,
+          "reason": "券后999/1199正确；6000mg情景计算明确四只总芯、另购三只与零只，1596/1199及397差额正确。",
+          "answer_lines": [
+            5,
+            28,
+            29
+          ],
+          "material_ids": [
+            "c01-s2",
+            "c01-s5"
+          ]
+        },
+        {
+          "criterion_id": "assumptions",
+          "score": 20,
+          "weight": 20,
+          "reason": "把6000mg明确归为朋友的假设，并拒绝日历寿命推断；另列换芯次数费用表亦标非年度费用。",
+          "answer_lines": [
+            17,
+            26,
+            31
+          ],
+          "material_ids": [
+            "c01-s5"
+          ]
+        },
+        {
+          "criterion_id": "report",
+          "score": 20,
+          "weight": 20,
+          "reason": "保留CCM大于等于6000下界与52%终止点，50%写为性能衰减，且声明单成分及混合VOC容量缺失。",
+          "answer_lines": [
+            8,
+            13,
+            15
+          ],
+          "material_ids": [
+            "c01-s1"
+          ]
+        },
+        {
+          "criterion_id": "dedup",
+          "score": 15,
+          "weight": 15,
+          "reason": "明确厂商、小红书、B站共用QL-26-051，不当三份独立实验；佣金信息保留但未否定报告数据。",
+          "answer_lines": [
+            33
+          ],
+          "material_ids": [
+            "c01-s3",
+            "c01-s4"
+          ]
+        },
+        {
+          "criterion_id": "coverage",
+          "score": 10,
+          "weight": 10,
+          "reason": "90条只提供2条，其余主评及子回复未加载；未泛化好评。",
+          "answer_lines": [
+            33
+          ],
+          "material_ids": [
+            "c01-s3"
+          ]
+        },
+        {
+          "criterion_id": "decision",
+          "score": 15,
+          "weight": 15,
+          "reason": "1199元L30符合预算，比较气态指标并说明味道不等于甲醛达标、通风去源仍必要。",
+          "answer_lines": [
+            1,
+            13,
+            15,
+            35
+          ],
+          "material_ids": [
+            "c01-s1",
+            "c01-s2"
+          ]
+        }
+      ]
+    },
+    {
+      "case_id": "c02",
+      "category": "浴室清洁剂",
+      "answer_path": "answers/c02.md",
+      "answer_sha256": "4bc5d96dc9855ce3155101263c012d2dfa8f2b2e913b42e3095c178826cb3c11",
+      "score": 100,
+      "max_score": 100,
+      "pass": true,
+      "caps_triggered": [],
+      "substantive_issues": [],
+      "criteria": [
+        {
+          "criterion_id": "material",
+          "score": 30,
+          "weight": 30,
+          "reason": "按标签排除A用于天然大理石；B保留密封、可水洗、养护及隐处试用条件。",
+          "answer_lines": [
+            1,
+            10,
+            12
+          ],
+          "material_ids": [
+            "c02-s1",
+            "c02-s2"
+          ]
+        },
+        {
+          "criterion_id": "method",
+          "score": 20,
+          "weight": 20,
+          "reason": "准确转述喷软布、清水湿布两遍后擦干，未推荐A试石材。",
+          "answer_lines": [
+            10,
+            12
+          ],
+          "material_ids": [
+            "c02-s1",
+            "c02-s2"
+          ]
+        },
+        {
+          "criterion_id": "price",
+          "score": 20,
+          "weight": 20,
+          "reason": "B计券后44.90加6运费为50.90，A独购29.90、成团21.90及不可领新客13.90均正确。",
+          "answer_lines": [
+            5,
+            6
+          ],
+          "material_ids": [
+            "c02-s3",
+            "c02-s4"
+          ]
+        },
+        {
+          "criterion_id": "effect",
+          "score": 10,
+          "weight": 10,
+          "reason": "区分日常皂渍与厚重水垢，不保证轻水痕一次去净。",
+          "answer_lines": [
+            10
+          ],
+          "material_ids": [
+            "c02-s2"
+          ]
+        },
+        {
+          "criterion_id": "evidence",
+          "score": 10,
+          "weight": 10,
+          "reason": "陶瓷经验不外推石材，发白原因未确证，28条评论只有截图第二条范围。",
+          "answer_lines": [
+            14
+          ],
+          "material_ids": [
+            "c02-s5"
+          ]
+        },
+        {
+          "criterion_id": "scope",
+          "score": 10,
+          "weight": 10,
+          "reason": "建议一瓶，未为免运凑单；明确未加购下单。",
+          "answer_lines": [
+            1,
+            5,
+            16
+          ],
+          "material_ids": [
+            "c02-s4"
+          ]
+        }
+      ]
+    },
+    {
+      "case_id": "c03",
+      "category": "扩展坞",
+      "answer_path": "answers/c03.md",
+      "answer_sha256": "de818152229816ecad75e2cb450de369e029632d762ec8bfb2f4459e4b10602f",
+      "score": 100,
+      "max_score": 100,
+      "pass": true,
+      "caps_triggered": [],
+      "substantive_issues": [],
+      "criteria": [
+        {
+          "criterion_id": "ports",
+          "score": 35,
+          "weight": 35,
+          "reason": "明确两个下行C只数据无视频，PD供电输入无视频，没有由接口外形推导功能。",
+          "answer_lines": [
+            5,
+            7
+          ],
+          "material_ids": [
+            "c03-s2"
+          ]
+        },
+        {
+          "criterion_id": "display",
+          "score": 25,
+          "weight": 25,
+          "reason": "扩展坞HDMI4K60与已跑通直连4K144区分明确。",
+          "answer_lines": [
+            6,
+            9
+          ],
+          "material_ids": [
+            "c03-s2",
+            "c03-s3"
+          ]
+        },
+        {
+          "criterion_id": "scope",
+          "score": 25,
+          "weight": 25,
+          "reason": "直接回应既定型号的短追问；虽然分点而非2至5句，内容紧扣接口与既有直连，无新增型号或重新调研。",
+          "answer_lines": [
+            1,
+            3,
+            5,
+            6,
+            7,
+            9
+          ],
+          "material_ids": [
+            "c03-s1",
+            "c03-s2",
+            "c03-s3"
+          ]
+        },
+        {
+          "criterion_id": "state",
+          "score": 15,
+          "weight": 15,
+          "reason": "不捏造新购物车核查，声明没有操作购物车；未多余重复历史价格。",
+          "answer_lines": [
+            11
+          ],
+          "material_ids": [
+            "c03-s1"
+          ]
+        }
+      ]
+    },
+    {
+      "case_id": "c04",
+      "category": "二手电器",
+      "answer_path": "answers/c04.md",
+      "answer_sha256": "28ccc012996b737f2c96820da08003b95dfd4c5a389011ca4a79a14ffd6d0a3f",
+      "score": 100,
+      "max_score": 100,
+      "pass": true,
+      "caps_triggered": [],
+      "substantive_issues": [],
+      "criteria": [
+        {
+          "criterion_id": "totals",
+          "score": 25,
+          "weight": 25,
+          "reason": "独立核算二手1610、Amazon1853.28、德国Temu1694.16和JD1999一致；降压器加总2113.28也正确。",
+          "answer_lines": [
+            7,
+            8,
+            9,
+            10,
+            14
+          ],
+          "material_ids": [
+            "c04-s1",
+            "c04-s2",
+            "c04-s3",
+            "c04-s5",
+            "c04-s6"
+          ]
+        },
+        {
+          "criterion_id": "sku",
+          "score": 20,
+          "weight": 20,
+          "reason": "保留CN220/B、US120/A、EU220/A版本及电源规格，并说明不同区域不承诺配置相同。",
+          "answer_lines": [
+            7,
+            8,
+            9,
+            10,
+            12
+          ],
+          "material_ids": [
+            "c04-s1",
+            "c04-s2",
+            "c04-s3",
+            "c04-s4"
+          ]
+        },
+        {
+          "criterion_id": "power",
+          "score": 20,
+          "weight": 20,
+          "reason": "不把降压器报价或插头转换头视为兼容证明；明确110V输出与120V60Hz要求、频率及匹配缺口。",
+          "answer_lines": [
+            14
+          ],
+          "material_ids": [
+            "c04-s2",
+            "c04-s4",
+            "c04-s6"
+          ]
+        },
+        {
+          "criterion_id": "service",
+          "score": 15,
+          "weight": 15,
+          "reason": "京东凭票大陆两年、二手个人7天开机故障退、美国原地区及欧盟寄修分开。",
+          "answer_lines": [
+            7,
+            8,
+            9,
+            10,
+            16
+          ],
+          "material_ids": [
+            "c04-s1",
+            "c04-s4",
+            "c04-s5"
+          ]
+        },
+        {
+          "criterion_id": "unknowns",
+          "score": 10,
+          "weight": 10,
+          "reason": "Amazon保留税费预收与外币手续费，Temu上海配送税运明确未知，德国报价不冒充上海。",
+          "answer_lines": [
+            9,
+            10,
+            12
+          ],
+          "material_ids": [
+            "c04-s2",
+            "c04-s3"
+          ]
+        },
+        {
+          "criterion_id": "decision",
+          "score": 10,
+          "weight": 10,
+          "reason": "按预算及售后偏好推荐京东全新CN版，未按最低标价排名，389差额正确。",
+          "answer_lines": [
+            1,
+            16,
+            18
+          ],
+          "material_ids": [
+            "c04-s1",
+            "c04-s4",
+            "c04-s5"
+          ]
+        }
+      ]
+    },
+    {
+      "case_id": "c05",
+      "category": "咖啡豆",
+      "answer_path": "answers/c05.md",
+      "answer_sha256": "f16be3ace970240b602be0badf38823cc8f312c029e6ee15014a27cda839318c",
+      "score": 100,
+      "max_score": 100,
+      "pass": true,
+      "caps_triggered": [],
+      "substantive_issues": [],
+      "criteria": [
+        {
+          "criterion_id": "quantity_time",
+          "score": 25,
+          "weight": 25,
+          "reason": "选择500g一包，拒绝1kg预售和为券凑两包，预计23日到货而非保证，满足周末与限量。",
+          "answer_lines": [
+            1,
+            5,
+            6,
+            11
+          ],
+          "material_ids": [
+            "c05-s1",
+            "c05-s2"
+          ]
+        },
+        {
+          "criterion_id": "deposit",
+          "score": 20,
+          "weight": 20,
+          "reason": "定金20与尾款158合计178，提醒20抵40不可重复扣；11月1日尾款后烘焙及7日内发货分开。",
+          "answer_lines": [
+            6
+          ],
+          "material_ids": [
+            "c05-s1"
+          ]
+        },
+        {
+          "criterion_id": "price",
+          "score": 20,
+          "weight": 20,
+          "reason": "单包JD99不能满189减10；PDD拼单144.90、独购164.90含5运费且当前无新客券。未报无关的两包价格不扣分。",
+          "answer_lines": [
+            5,
+            7,
+            11
+          ],
+          "material_ids": [
+            "c05-s2",
+            "c05-s3"
+          ]
+        },
+        {
+          "criterion_id": "product",
+          "score": 20,
+          "weight": 20,
+          "reason": "完整区分中浅水洗整豆500g与深烘拼配1kg，保留明确和缺失烘焙日期。",
+          "answer_lines": [
+            1,
+            5,
+            6,
+            7
+          ],
+          "material_ids": [
+            "c05-s1",
+            "c05-s2",
+            "c05-s3"
+          ]
+        },
+        {
+          "criterion_id": "evidence",
+          "score": 10,
+          "weight": 10,
+          "reason": "旧2025批次体验不外推今年风味。",
+          "answer_lines": [
+            9
+          ],
+          "material_ids": [
+            "c05-s4"
+          ]
+        },
+        {
+          "criterion_id": "state",
+          "score": 5,
+          "weight": 5,
+          "reason": "明确未加购、下单、付款，没有预售定金动作。",
+          "answer_lines": [
+            13
+          ],
+          "material_ids": [
+            "c05-s1"
+          ]
+        }
+      ]
+    },
+    {
+      "case_id": "c06",
+      "category": "家具配送",
+      "answer_path": "answers/c06.md",
+      "answer_sha256": "ba8737c4f7b70262213bc0f790bcd7e4b8a0179eb61f2d98b77ee172692896dc",
+      "score": 100,
+      "max_score": 100,
+      "pass": true,
+      "caps_triggered": [],
+      "substantive_issues": [],
+      "criteria": [
+        {
+          "criterion_id": "backend",
+          "score": 25,
+          "weight": 25,
+          "reason": "直接说明无手机设备、点击滑动输入通道，截图不等于可操作会话，未假装接管。",
+          "answer_lines": [
+            1,
+            19
+          ],
+          "material_ids": [
+            "c06-s1"
+          ]
+        },
+        {
+          "criterion_id": "taobao",
+          "score": 20,
+          "weight": 20,
+          "reason": "999未满商品1000门槛，六楼按5层125元，上楼安装总额1274正确。",
+          "answer_lines": [
+            9,
+            13
+          ],
+          "material_ids": [
+            "c06-s2"
+          ]
+        },
+        {
+          "criterion_id": "pdd",
+          "score": 20,
+          "weight": 20,
+          "reason": "成团券价1099加未知上楼费、独购1249加未知上楼费正确，当前未成团未当作取得优惠；175/25价差阈值正确。",
+          "answer_lines": [
+            10,
+            11,
+            13
+          ],
+          "material_ids": [
+            "c06-s3"
+          ]
+        },
+        {
+          "criterion_id": "delivery",
+          "score": 20,
+          "weight": 20,
+          "reason": "明确按当前发货安排赶不上24日，区分25日发货、运输工作日与另约安装，没有保证周六。",
+          "answer_lines": [
+            3,
+            9,
+            10,
+            11,
+            17
+          ],
+          "material_ids": [
+            "c06-s2",
+            "c06-s3",
+            "c06-s4"
+          ]
+        },
+        {
+          "criterion_id": "physical",
+          "score": 10,
+          "weight": 10,
+          "reason": "说明仅选上海未完整地址，72cm门洞不足保证，楼梯转角未量且不沿用另一商家包装尺寸。",
+          "answer_lines": [
+            5,
+            15,
+            17
+          ],
+          "material_ids": [
+            "c06-s2",
+            "c06-s4"
+          ]
+        },
+        {
+          "criterion_id": "scope",
+          "score": 5,
+          "weight": 5,
+          "reason": "必要补查限定送装日期、上楼固定报价及搬入尺寸，未声称操作App/改地址/下单。",
+          "answer_lines": [
+            17,
+            19
+          ],
+          "material_ids": [
+            "c06-s1",
+            "c06-s3",
+            "c06-s4"
+          ]
+        }
+      ]
+    },
+    {
+      "case_id": "c07",
+      "category": "投影仪",
+      "answer_path": "answers/c07.md",
+      "answer_sha256": "a865273d099540113aad440c57bab1c7613249bf371e8187f0b972ab6d4dc797",
+      "score": 100,
+      "max_score": 100,
+      "pass": true,
+      "caps_triggered": [],
+      "substantive_issues": [],
+      "criteria": [
+        {
+          "criterion_id": "throw",
+          "score": 25,
+          "weight": 25,
+          "reason": "2.214m幕宽与1.174所需投射比计算正确；P1需2.657m只能97.9寸被排除，L2光学范围覆盖，不靠数字处理；保留完整安装几何缺口。",
+          "answer_lines": [
+            5,
+            7,
+            11,
+            12,
+            15,
+            17
+          ],
+          "material_ids": [
+            "c07-s1",
+            "c07-s2"
+          ]
+        },
+        {
+          "criterion_id": "brightness",
+          "score": 20,
+          "weight": 20,
+          "reason": "明确ANSI、CVIA、Lux不可按数字排名，0.30m中心照度不冒充整机光通量，无固定换算。",
+          "answer_lines": [
+            30
+          ],
+          "material_ids": [
+            "c07-s1",
+            "c07-s2",
+            "c07-s3"
+          ]
+        },
+        {
+          "criterion_id": "resolution",
+          "score": 15,
+          "weight": 15,
+          "reason": "P1/S3为1080p面板接收4K，L2原生4K且接收4K60区分明确。",
+          "answer_lines": [
+            11,
+            12,
+            13
+          ],
+          "material_ids": [
+            "c07-s1",
+            "c07-s2",
+            "c07-s3"
+          ]
+        },
+        {
+          "criterion_id": "price_bundle",
+          "score": 20,
+          "weight": 20,
+          "reason": "P1加架4198、L2加架5698、S3加架4398、淘宝套6299均正确，套装多软幕与棒并保留601差价。",
+          "answer_lines": [
+            23,
+            24,
+            25,
+            26,
+            28
+          ],
+          "material_ids": [
+            "c07-s4",
+            "c07-s5"
+          ]
+        },
+        {
+          "criterion_id": "decision",
+          "score": 15,
+          "weight": 15,
+          "reason": "首选明确L2京东单机支架满足预算、光学投距与4K60，保留未实测游戏和白天效果。",
+          "answer_lines": [
+            1,
+            17,
+            34
+          ],
+          "material_ids": [
+            "c07-s1",
+            "c07-s2",
+            "c07-s4"
+          ]
+        },
+        {
+          "criterion_id": "evidence",
+          "score": 5,
+          "weight": 5,
+          "reason": "自动曝光视频不支持定量亮度结论，46仅3条可见不概括完整口碑。",
+          "answer_lines": [
+            32
+          ],
+          "material_ids": [
+            "c07-s6"
+          ]
+        }
+      ]
+    },
+    {
+      "case_id": "c08",
+      "category": "便携游戏本",
+      "answer_path": "answers/c08.md",
+      "answer_sha256": "18793a5ce6da6d6d3f2cd06ef9d0ea471e59a5ae7a580507054e21d442e1db09",
+      "score": 100,
+      "max_score": 100,
+      "pass": true,
+      "caps_triggered": [],
+      "substantive_issues": [],
+      "criteria": [
+        {
+          "criterion_id": "carry_weight",
+          "score": 25,
+          "weight": 25,
+          "reason": "整套2.53与3.57kg算对，明确排除超过3.0kg的G16，未用机身重量或小电源规避硬约束。",
+          "answer_lines": [
+            1,
+            12,
+            13,
+            16
+          ],
+          "material_ids": [
+            "c08-s1",
+            "c08-s2"
+          ]
+        },
+        {
+          "criterion_id": "sku_price",
+          "score": 20,
+          "weight": 20,
+          "reason": "两款完整32GB1TB SKU明确；京东12499/12999正确，淘宝10999为16GB单条512GB且升级总价与原厂凭证未知。",
+          "answer_lines": [
+            7,
+            10,
+            35,
+            36,
+            37,
+            39
+          ],
+          "material_ids": [
+            "c08-s1",
+            "c08-s2",
+            "c08-s5",
+            "c08-s6"
+          ]
+        },
+        {
+          "criterion_id": "render_fps",
+          "score": 25,
+          "weight": 25,
+          "reason": "同条件原始82/98和19.5%、1%Low61/74与21.3%正确；192/73不同DLSS、帧生成及模式不能作倍数原生性能。",
+          "answer_lines": [
+            18,
+            22,
+            23,
+            25,
+            27
+          ],
+          "material_ids": [
+            "c08-s3",
+            "c08-s4"
+          ]
+        },
+        {
+          "criterion_id": "mode_power",
+          "score": 10,
+          "weight": 10,
+          "reason": "明确插电独显性能模式测试及轻便电源未测，电池和均衡缺证据；未虚构相同性能。",
+          "answer_lines": [
+            16,
+            18,
+            29
+          ],
+          "material_ids": [
+            "c08-s2",
+            "c08-s3"
+          ]
+        },
+        {
+          "criterion_id": "decision",
+          "score": 15,
+          "weight": 15,
+          "reason": "推荐硬约束合规G14，说明8与12GB显存和游戏性能取舍，拒绝保证未知CUDA负载或推算训练速度。",
+          "answer_lines": [
+            1,
+            29,
+            41
+          ],
+          "material_ids": [
+            "c08-s1",
+            "c08-s2",
+            "c08-s3"
+          ]
+        },
+        {
+          "criterion_id": "scope",
+          "score": 5,
+          "weight": 5,
+          "reason": "只给两款建议，未实际重启选型，明确未加购下单付款。",
+          "answer_lines": [
+            41
+          ],
+          "material_ids": [
+            "c08-s5",
+            "c08-s6"
+          ]
+        }
+      ]
+    }
+  ],
+  "paired_baseline": [
+    {
+      "case_id": "c07",
+      "v1_saved_output_score": 100,
+      "final_v2_score": 100,
+      "delta": 0,
+      "v1_criteria": [
+        {
+          "criterion_id": "throw",
+          "score": 25,
+          "weight": 25,
+          "reason": "基线已用2.214m算1.174，P1需2.657m并排除；L2范围2.435至2.768m覆盖且附安装几何前提。",
+          "material_ids": [
+            "c07-s1",
+            "c07-s2"
+          ]
+        },
+        {
+          "criterion_id": "brightness",
+          "score": 20,
+          "weight": 20,
+          "reason": "基线已分开ANSI/CVIA/Lux并拒绝数字排名及未支持的换算。",
+          "material_ids": [
+            "c07-s1",
+            "c07-s2",
+            "c07-s3"
+          ]
+        },
+        {
+          "criterion_id": "resolution",
+          "score": 15,
+          "weight": 15,
+          "reason": "基线区分P1/S3原生1080p收4K与L2原生4K。",
+          "material_ids": [
+            "c07-s1",
+            "c07-s2",
+            "c07-s3"
+          ]
+        },
+        {
+          "criterion_id": "price_bundle",
+          "score": 20,
+          "weight": 20,
+          "reason": "基线四套4198/5698/4398/6299正确，指出120寸幕和流媒体棒与现有需求不同。",
+          "material_ids": [
+            "c07-s4",
+            "c07-s5"
+          ]
+        },
+        {
+          "criterion_id": "decision",
+          "score": 15,
+          "weight": 15,
+          "reason": "基线已有明确L2优先选择、预算和投距推导，未夸大白天或游戏性能。",
+          "material_ids": [
+            "c07-s2",
+            "c07-s4"
+          ]
+        },
+        {
+          "criterion_id": "evidence",
+          "score": 5,
+          "weight": 5,
+          "reason": "基线拒绝自动曝光比较，并说明46条仅3条可见。",
+          "material_ids": [
+            "c07-s6"
+          ]
+        }
+      ]
+    },
+    {
+      "case_id": "c08",
+      "v1_saved_output_score": 100,
+      "final_v2_score": 100,
+      "delta": 0,
+      "v1_criteria": [
+        {
+          "criterion_id": "carry_weight",
+          "score": 25,
+          "weight": 25,
+          "reason": "基线整套2.53/3.57kg及超标0.57kg正确，执行原装电源硬约束。",
+          "material_ids": [
+            "c08-s1",
+            "c08-s2"
+          ]
+        },
+        {
+          "criterion_id": "sku_price",
+          "score": 20,
+          "weight": 20,
+          "reason": "基线完整SKU、12499/12999与淘宝16/512的10999区分准确。",
+          "material_ids": [
+            "c08-s1",
+            "c08-s2",
+            "c08-s5",
+            "c08-s6"
+          ]
+        },
+        {
+          "criterion_id": "render_fps",
+          "score": 25,
+          "weight": 25,
+          "reason": "基线原始82/98及19.5%、1%Low61/74及21.3%正确，拒绝不同模式FG超分192/73两倍说法。",
+          "material_ids": [
+            "c08-s3",
+            "c08-s4"
+          ]
+        },
+        {
+          "criterion_id": "mode_power",
+          "score": 10,
+          "weight": 10,
+          "reason": "基线保留插电性能模式，电池、轻便电源及均衡未测。",
+          "material_ids": [
+            "c08-s2",
+            "c08-s3"
+          ]
+        },
+        {
+          "criterion_id": "decision",
+          "score": 15,
+          "weight": 15,
+          "reason": "基线推荐重量合规G14并说明8/12GB显存取舍，没有承诺CUDA训练速度或规模。",
+          "material_ids": [
+            "c08-s1",
+            "c08-s2",
+            "c08-s3"
+          ]
+        },
+        {
+          "criterion_id": "scope",
+          "score": 5,
+          "weight": 5,
+          "reason": "基线只作建议，未加购下单支付，无广泛重启选型。",
+          "material_ids": [
+            "c08-s5",
+            "c08-s6"
+          ]
+        }
+      ]
+    }
+  ],
+  "paired_interpretation": "Both paired deltas are zero. These artifacts provide no measured improvement over v1; v1 was not rerun here and only two saved baseline answers are available.",
+  "substantive_issues": [],
+  "global_caps_triggered": [],
+  "limitations": [
+    "All materials, prices, brands, reports and seller identities are synthetic offline data; this does not verify live shopping platforms, delivery promises, account coupons, mobile controls, carts, checkout or payment.",
+    "One fresh-context run per case; eight cases are a small designed set and not statistical generalization evidence.",
+    "Exact effective model, reasoning effort and sampling settings are unavailable; no settings are invented.",
+    "Grader knows version labels and saw a prior score summary in agent inventory. Grader did not author solver answers; final outputs were read and graded semantically with separate numerical recomputation. This is not blind grading.",
+    "Solvers received one case, shared data notice/environment and the skill path, without rubric or intended answers. Fresh-context isolation was enforced by prompt; filesystem was shared and solver full tool traces were not exposed to the coordinator.",
+    "Baseline comparison is limited to saved v1 c07/c08 outputs. Historical baseline invocation metadata and a matched final-version rerun of v1 are unavailable; no causal version-improvement claim is supported.",
+    "Timestamps record actual coordinator observations and file mtimes separately; they are not exact model start/end times or inference latency."
+  ]
+}

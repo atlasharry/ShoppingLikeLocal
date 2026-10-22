@@ -1,0 +1,5 @@
+Command: python3 skill-creator/scripts/quick_validate.py <skill-root>
+Exit code: 0
+Output: Skill is valid!
+Observed by coordinator at 2026-10-22T15:35:24.028726+00:00
+Scope: schema/scaffold validation only, not behavioral proof.

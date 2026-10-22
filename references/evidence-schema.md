@@ -1,66 +1,37 @@
-# 证据表与交接
+# 研究记录与跨设备交接
 
-按实际任务采用表格、CSV或结构化文件，不必为简单问题创建全部字段。用户要求完整调研、多人协作或跨设备时，保留能恢复工作的记录。
+简单追问不强制创建文件。完整调研、多人协作或跨设备任务可用表格、Markdown或JSON记录以下信息；只填实际取得内容，未核实项明确留空。这是报告约定，不要求接入特定数据库。
 
-## 研究简要
+## 需求
 
-用途与场景、硬约束、预算、数量、配送地区、最晚需要时间、已回答信息、允许平台与工具、当前购物授权、尚缺条件。
+用途、硬约束与软偏好、预算和币种、数量、购买国家、配送地区、最晚需要日期、已有设备/材质、已回答问题、平台/工具偏好、授权阶段、尚缺条件和研究截止条件。
 
-## 一条使用主张
+## 四类记录
 
-    source_url
-    platform
-    query
-    published_at
-    observed_at
-    author
-    product_variant
-    use_conditions
-    claim
-    evidence_type: author_said | image_observed | video_observed | user_replication
-    video_time_range
-    continuous_or_sampled
-    comments_read_scope
-    unexpanded_replies
-    promotion_signals
-    independent_source_group
-    supports
-    contradicts
-    material_limitations
+| 记录 | 最少保留 | 按任务补充 |
+|---|---|---|
+| `product_identity` | 完整名称/型号、地区、固有配置、单包装净含量和包装内件数 | 电压、配方、厂家标准套装；相同/近似/不同/待确认的匹配结论与原因 |
+| `claim` | 来源链接或可定位身份、观察时间、产品身份、具体主张、证据类型、支持范围 | 测试所用耗材/附件组合、条件/档位、单位与标准、标称/实测、原始报告/引用、推广信号、独立来源组、冲突及限制 |
+| `offer` | 平台商品ID/链接、产品身份、卖家、履约、购买数量、成色、卖家套装、币种、价格阶段、时间 | 商品价、可用优惠及条件、运税费、完整总额或已知小计、区域保修、配送地、发货/送达/安装、历史窗口 |
+| `access_state` | 设备别名、后端、平台/App、当前页面、观察时间、已验证动作 | 搜索、原帖/评论、选规格、商品价、确认页、配送、加购/订单各自状态；输入回读、停止原因、恢复位置 |
 
-只填实际取得的信息，缺项明确未知。不要为了填字段推断用量、持续时间或商业关系；短摘录和必要事实足够，不保存整篇转载。
+`claim` 的证据类型可沿用 `author_said`、`image_observed`、`video_observed`、`user_replication`，或使用含义明确的文字。视频保留时间范围及连续观看/抽看；评论保留已加载一级评论和子回复展开范围。没有看到的视频或评论不补写。
 
-## 一条可购买报价
+`offer.price_stage` 区分 `listing`、`selected_variant`、`cart`、`checkout`、`paid`。聚合价标为线索，不能冒充账号确认价；未知费用不能填0。跨币种保留原币总额，另记汇率来源/时间和换算用途。
 
-    platform
-    product_url
-    observed_at
-    exact_variant
-    seller
-    fulfiller
-    quantity
-    listed_price
-    usable_discounts_and_conditions
-    shipping_and_tax
-    checkout_total
-    price_stage: listing | cart | checkout | paid
-    destination_scope
-    ships_by
-    estimated_arrival
-    order_deadline
-    history_window_and_variant_match
-    coverage_and_unknowns
+`access_state` 按当前平台和动作分别记录 `verified`、`view_only`、`needs_user_setup`、`unavailable`、`not_tested`。单次截图只能证明已读内容；镜像或ADB在线不能单独证明输入成功，手机后端成功不能代表每个App都已测试。
 
-价格、物流时段和历史数据分别标注核验范围。不能把聚合记录填进paid，不能用发货时长填estimated_arrival。
+## 交接与公开边界
 
-## 跨设备交接
+交接保留用户目标、已核候选、待补证据、页面/标签句柄、当前规格、查询词、已读范围、报价和下一步。恢复先确认当前页面与设备，不能依赖旧坐标或旧订单状态。
 
-保留当前访问路线、目标App或页面、已登录状态、产品键、已选规格、读取范围、比较结果、待解决问题和下一步。手机另记设备别名、操作后端、能力状态及最近一次可逆输入验证。卡住时让接手者知道停在哪个可见环节，不仅记录“失败”。
+运行时需要的会话链接只留在宿主安全会话中；公开记录去除Cookie、xsec_token、xsec_source、追踪参数、完整地址、账号、订单和支付资料。不保留与任务无关的手机画面、通知或私人剪贴板内容。无法提供公开链接时用商品/帖子身份及日期定位，不编造URL。
 
-在宿主提供的安全会话内使用当前链接或标签句柄；公开版本去除Cookie、xsec_token、xsec_source、追踪与会话参数。不要把私有链接、账户资料、完整地址、支付资料或订单号作为公开恢复上下文。
+## 交付结构
 
-## 输出与验收
+1. 选择及一项主要取舍，或对简单追问的直接答复。
+2. 必要的同款报价、优惠条件、价格阶段、配送与核验时间。
+3. 对决定购买的正反证据给来源；冲突和缺口说明会怎样影响选择。
+4. 已覆盖平台与未覆盖环节，实际购物动作阶段。
 
-推荐及理由；匹配与未匹配的硬约束；同款价格和送达表；关键正反证据；购买时机；实际购物阶段。来源不足会影响关键决策时才注明限制，并说明对选择的影响。
-
-验证状态分别记录：格式校验、离线场景、真实网页、真实手机、真实订单、实际支付。一个阶段通过不能替代另一个阶段。
+格式检查、离线案例、真实网页、真实手机、订单、支付分别验收。评估报告记录样本、版本、输入和输出；旧版已通过的题不能写成新版本带来的准确率提升。

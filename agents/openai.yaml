@@ -1,4 +1,4 @@
 interface:
-  display_name: "中国购物调研"
-  short_description: "小红书与B站核验证据，比较同款价格和送达，衔接网页与手机购买"
-  default_prompt: "用 $china-shopping-research 帮我选购商品，核实使用证据、同款实付和预计送达，再按我的授权执行购买。"
+  display_name: "ShoppingLikeLocal"
+  short_description: "结合当地使用证据，跨网页与手机比较准确款式、真实价格和送达"
+  default_prompt: "用 $shopping-like-local 帮我按购买地区、用途和预算选购商品，核实使用证据、同款总价与预计送达，再按我的授权执行。"

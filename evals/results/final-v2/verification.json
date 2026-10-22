@@ -1,0 +1,20 @@
+{
+  "verified_at_utc": "2026-10-22T15:44:13.169078+00:00",
+  "checks": {
+    "frozen_source_files_match": true,
+    "source_case_hash_matches": true,
+    "eight_answers_present": true,
+    "answers_byte_identical": true,
+    "answer_hashes_match_grading": true,
+    "eight_scores_and_46_criteria": true,
+    "scores_arithmetic_matches": true,
+    "all_caps_checked": true,
+    "paired_deltas_zero": true,
+    "no_absolute_private_paths": true,
+    "known_grader_and_unknown_model_declared": true,
+    "answer_evidence_lines_exist": true,
+    "eight_exact_dispatch_prompts": true
+  },
+  "all_pass": true,
+  "scope": "Artifact integrity and scoring arithmetic; substantive grading was manual semantic review. This verification does not run live shopping workflows."
+}

@@ -1,0 +1,154 @@
+{
+  "run_label": "final-v2",
+  "relative_path_basis": "repository root",
+  "hash_algorithm": "sha256",
+  "source_cases_path": "evals/cases.json",
+  "source_cases_sha256": "c72870a2667650fa13c3eab8b032bdd81b188c93a449cf0190b336d5a64131c7",
+  "frozen_at_utc": "2026-10-22T15:31:39.157335+00:00",
+  "post_run_observed_at_utc": "2026-10-22T15:40:28.411284+00:00",
+  "instruction_files_unchanged": true,
+  "differences": [],
+  "before_files": [
+    {
+      "path": "SKILL.md",
+      "sha256": "4ec906abd594f43953b782210b9024134623343cdaed6afaed32fd6bd991d336",
+      "bytes": 6155
+    },
+    {
+      "path": "references/evidence-schema.md",
+      "sha256": "d3e73564dfd8c406e3a0919a8798cf41d3d8ed8da86cc3fb30fbc9352e40bb7c",
+      "bytes": 3549
+    },
+    {
+      "path": "references/mobile-control.md",
+      "sha256": "e98736e88087d8d9587fb2f0f3f681a5b2df0b9fef027c358e7c0f8a38539bf3",
+      "bytes": 6489
+    },
+    {
+      "path": "references/platforms.md",
+      "sha256": "d5dd55a2bc2d1686666899aec36ebd2474cd36a875bc6ff55c09eb3e66d71cae",
+      "bytes": 4369
+    },
+    {
+      "path": "references/price-delivery-purchase.md",
+      "sha256": "dbb747a44e42636d6617fa8beb3c3be12412b1318b4496f080d4cb96a15e598f",
+      "bytes": 5530
+    },
+    {
+      "path": "references/product-evidence.md",
+      "sha256": "960f94ae209720ed57b3f3ce505c185e01f6a97d842845dabda8dc497adb3a88",
+      "bytes": 4235
+    },
+    {
+      "path": "references/sources-and-video.md",
+      "sha256": "22cff415751ac0d24c0cb1492e8b2723896963beb0d6883d9b11707ace8f760f",
+      "bytes": 5197
+    },
+    {
+      "path": "evals/cases.json",
+      "sha256": "c72870a2667650fa13c3eab8b032bdd81b188c93a449cf0190b336d5a64131c7",
+      "bytes": 22101
+    }
+  ],
+  "after_files": [
+    {
+      "path": "SKILL.md",
+      "sha256": "4ec906abd594f43953b782210b9024134623343cdaed6afaed32fd6bd991d336",
+      "bytes": 6155
+    },
+    {
+      "path": "references/evidence-schema.md",
+      "sha256": "d3e73564dfd8c406e3a0919a8798cf41d3d8ed8da86cc3fb30fbc9352e40bb7c",
+      "bytes": 3549
+    },
+    {
+      "path": "references/mobile-control.md",
+      "sha256": "e98736e88087d8d9587fb2f0f3f681a5b2df0b9fef027c358e7c0f8a38539bf3",
+      "bytes": 6489
+    },
+    {
+      "path": "references/platforms.md",
+      "sha256": "d5dd55a2bc2d1686666899aec36ebd2474cd36a875bc6ff55c09eb3e66d71cae",
+      "bytes": 4369
+    },
+    {
+      "path": "references/price-delivery-purchase.md",
+      "sha256": "dbb747a44e42636d6617fa8beb3c3be12412b1318b4496f080d4cb96a15e598f",
+      "bytes": 5530
+    },
+    {
+      "path": "references/product-evidence.md",
+      "sha256": "960f94ae209720ed57b3f3ce505c185e01f6a97d842845dabda8dc497adb3a88",
+      "bytes": 4235
+    },
+    {
+      "path": "references/sources-and-video.md",
+      "sha256": "22cff415751ac0d24c0cb1492e8b2723896963beb0d6883d9b11707ace8f760f",
+      "bytes": 5197
+    },
+    {
+      "path": "evals/cases.json",
+      "sha256": "c72870a2667650fa13c3eab8b032bdd81b188c93a449cf0190b336d5a64131c7",
+      "bytes": 22101
+    }
+  ],
+  "per_case_artifacts": [
+    {
+      "case_id": "c01",
+      "source_case_canonical_sha256": "0c44c871744fcf08290eb28d545fc3dc449ffb1857b94b9506daea9a518dc386",
+      "single_case_input_sha256": "c148091e9b508d73786de1ecd7ab2d310b976f298e47c2c1b5ffa2cc6be08154",
+      "answer_path": "evals/results/final-v2/answers/c01.md",
+      "answer_sha256": "da22b4c6e05f84514c30b5652f2a5d5c089f6345cbec7d5c4cfc632eda020316"
+    },
+    {
+      "case_id": "c02",
+      "source_case_canonical_sha256": "44d0240594884e5484eee874bb41eff639a0405404ddfcfdfcf04e4cef202322",
+      "single_case_input_sha256": "b0152d4c9faf00fabae074debcfb7207cc15130dbe04752ffe7b4e3ba0e53e37",
+      "answer_path": "evals/results/final-v2/answers/c02.md",
+      "answer_sha256": "4bc5d96dc9855ce3155101263c012d2dfa8f2b2e913b42e3095c178826cb3c11"
+    },
+    {
+      "case_id": "c03",
+      "source_case_canonical_sha256": "7fd2e91b07b5bdc04e529166c67a905527a931cba4c8a7c72f74056c3fb727aa",
+      "single_case_input_sha256": "b95b968a762e34a073230acbdfaca3d740ffd8b00ad63f7a8b99143fb51e49e7",
+      "answer_path": "evals/results/final-v2/answers/c03.md",
+      "answer_sha256": "de818152229816ecad75e2cb450de369e029632d762ec8bfb2f4459e4b10602f"
+    },
+    {
+      "case_id": "c04",
+      "source_case_canonical_sha256": "d170b42fc7aa71857abe356c7dab0200e986b0c495392e5433e1f97c5bc05268",
+      "single_case_input_sha256": "557da28074199313c3ccb2bb272e14fd1a46efcece9e84381ef7741718b86207",
+      "answer_path": "evals/results/final-v2/answers/c04.md",
+      "answer_sha256": "28ccc012996b737f2c96820da08003b95dfd4c5a389011ca4a79a14ffd6d0a3f"
+    },
+    {
+      "case_id": "c05",
+      "source_case_canonical_sha256": "6247d37a806e814f745f4c245083d30ac6dc52fc3bbcce4b170fd580626c633a",
+      "single_case_input_sha256": "fd525bb01bacb8e40d0a32fa05b9facdebfe30749b7107d0fad1c1afde16cdd2",
+      "answer_path": "evals/results/final-v2/answers/c05.md",
+      "answer_sha256": "f16be3ace970240b602be0badf38823cc8f312c029e6ee15014a27cda839318c"
+    },
+    {
+      "case_id": "c06",
+      "source_case_canonical_sha256": "dc2c69bdbf5c6e1b0628ba09ca79053cd12d2b21cebf158dc3d4cf56a836b165",
+      "single_case_input_sha256": "26353ef3abc93ec8cb94c56b9e0b707f98771937ba1893464d0c0715dcf39553",
+      "answer_path": "evals/results/final-v2/answers/c06.md",
+      "answer_sha256": "ba8737c4f7b70262213bc0f790bcd7e4b8a0179eb61f2d98b77ee172692896dc"
+    },
+    {
+      "case_id": "c07",
+      "source_case_canonical_sha256": "9c39aebbc44209acebde3d894bed59a701554ddf8fa1ec1987d2a36a1c6d4219",
+      "single_case_input_sha256": "fd2ada5bac54ef70fc1c123d4b486adba0840a18fb733187330a853d1a425bb6",
+      "answer_path": "evals/results/final-v2/answers/c07.md",
+      "answer_sha256": "a865273d099540113aad440c57bab1c7613249bf371e8187f0b972ab6d4dc797"
+    },
+    {
+      "case_id": "c08",
+      "source_case_canonical_sha256": "068b3f8276d197d83ab896ebcb9c496560350e763bf3381fb06303129bb71019",
+      "single_case_input_sha256": "067c2be4a5f364695c84121bcee90cd268b50e1d4f172f25ddccff2052797839",
+      "answer_path": "evals/results/final-v2/answers/c08.md",
+      "answer_sha256": "18793a5ce6da6d6d3f2cd06ef9d0ea471e59a5ae7a580507054e21d442e1db09"
+    }
+  ],
+  "source_case_hash_canonicalization": "UTF-8 JSON of each case, ensure_ascii=false, sorted keys, separators comma and colon with no spaces. Single-case input hashes cover formatted JSON including shared data_notice and default_environment."
+}

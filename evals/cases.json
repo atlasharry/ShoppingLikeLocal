@@ -1,0 +1,419 @@
+{
+  "schema_version": "1.0",
+  "created_at": "2026-10-22",
+  "data_notice": "全部为人工模拟的离线评测资料。品牌、人名、商家、型号、报告编号与交易信息为合成虚构，不代表真实来源、真实检测或市场报价；没有为模拟来源编造可访问网址。",
+  "default_environment": {
+    "network": "unavailable",
+    "account_actions": "unavailable",
+    "available_materials": "仅该案例附带摘录，没有未提供的页面、回复或附件"
+  },
+  "cases": [
+    {
+      "id": "c01",
+      "category": "空气净化器",
+      "user_request": "刚搬进20平方米的房间，柜子味道明显。朋友让我看清岚这两款，预算1200元左右，也想算后面的换芯费用。按这些材料给个选择和理由，先不加车。",
+      "materials": [
+        {
+          "material_id": "c01-s1",
+          "source_identity": {
+            "platform": "原厂资料（模拟）",
+            "display_name": "清岚技术资料中心",
+            "visible_role": "制造商"
+          },
+          "raw_excerpt": "A：C20，完整型号KJ500F-C20-CN，甲醛CADR350m³/h，颗粒CADR500m³/h。报告QL-26-051：甲醛加载1500mg时，甲醛CADR降至初始50%。B：L30，KJ500F-L30-CN，甲醛CADR320m³/h，颗粒CADR500m³/h。报告QL-26-077：加载6000mg后，甲醛CADR为初始52%，试验停止，结果甲醛CCM≥6000mg。均为单成分报告，未提供本房间排放量或混合VOC容量。说明书：HEPA层用于颗粒物，气态滤材用于特定气体，需更换，净化不能替代通风和污染源控制。"
+        },
+        {
+          "material_id": "c01-s2",
+          "source_identity": {
+            "platform": "京东商品页（模拟）",
+            "display_name": "清岚京东自营店",
+            "visible_role": "零售商"
+          },
+          "raw_excerpt": "C20机身1099元，当前账号已领满999减100券，包邮，含一只芯，原装替换芯199元。L30机身1299元，已领满1199减100券，包邮，含一只芯，原装替换芯129元。券各自只用于对应机器。"
+        },
+        {
+          "material_id": "c01-s3",
+          "source_identity": {
+            "platform": "小红书笔记和评论截图（模拟）",
+            "display_name": "房间记录员小谭",
+            "visible_role": "自称消费者"
+          },
+          "raw_excerpt": "正文：品牌给我的QL-26-051报告，1500mg还有一半性能，我整理成表了。商品卡是带佣链接。页面90条评论，当前只显示两条：“用了三天味道少些”；“半年没换芯”。其他主评论和子回复未加载。"
+        },
+        {
+          "material_id": "c01-s4",
+          "source_identity": {
+            "platform": "B站字幕片段（模拟）",
+            "display_name": "空净表格君",
+            "visible_role": "参数解读作者"
+          },
+          "raw_excerpt": "00:42 这张图来自清岚QL-26-051报告，不是我另外做的实验。01:05 C20甲醛CCM1500mg。简介：依据品牌报告讲解，没有做实屋持续释放测试。"
+        },
+        {
+          "material_id": "c01-s5",
+          "source_identity": {
+            "platform": "朋友聊天截图（模拟）",
+            "display_name": "阿诚",
+            "visible_role": "用户朋友"
+          },
+          "raw_excerpt": "我做个算账情景，假设一年机器累计处理6000mg甲醛，机身带一只芯，每只到报告容量换，暂不算电费。6000mg是我填的假设，不知道你家实际多少。"
+        }
+      ]
+    },
+    {
+      "id": "c02",
+      "category": "浴室清洁剂",
+      "user_request": "台面是天然大理石，下面是陶瓷盆，日常皂渍和一点水痕，想喷后擦干净，100元内。这两瓶怎么选，实际一瓶多少钱？按材料判断，不下单。",
+      "materials": [
+        {
+          "material_id": "c02-s1",
+          "source_identity": {
+            "platform": "瓶身标签（模拟）",
+            "display_name": "家澈A500",
+            "visible_role": "制造商"
+          },
+          "raw_excerpt": "500mL，酸性，柠檬酸及表活。用于耐酸玻璃、釉面陶瓷和器具厂家允许的镀铬面；不可天然大理石、石灰石及其他不耐酸表面。喷后不超过3分钟，擦洗后充分清水冲净，不与漂白水或其他清洁剂混用。"
+        },
+        {
+          "material_id": "c02-s2",
+          "source_identity": {
+            "platform": "瓶身标签（模拟）",
+            "display_name": "家澈B500石材日常款",
+            "visible_role": "制造商"
+          },
+          "raw_excerpt": "500mL，pH约7，非离子表活。用于密封处理且可水洗的大理石、陶瓷、玻璃；遵守台面养护要求，隐处试用。适合日常皮脂皂渍，不是厚重水垢剂。喷在软布上擦，再用清水湿布擦净两遍，最后擦干。"
+        },
+        {
+          "material_id": "c02-s3",
+          "source_identity": {
+            "platform": "拼多多页面和账号截图（模拟）",
+            "display_name": "家澈清洁优选店",
+            "visible_role": "零售商"
+          },
+          "raw_excerpt": "A500单独买29.90元包邮；拼单21.90元需成团，目前未成团。到手13.90是新客额外8元券；当前账号老客，领券页显示不可领取。"
+        },
+        {
+          "material_id": "c02-s4",
+          "source_identity": {
+            "platform": "京东结算摘要（模拟）",
+            "display_name": "家澈自营店",
+            "visible_role": "零售商"
+          },
+          "raw_excerpt": "B500石材日常款一瓶49.90元，已领本品减5元券，运费6元，实付商品满59元免运费，未加其他商品。"
+        },
+        {
+          "material_id": "c02-s5",
+          "source_identity": {
+            "platform": "小红书评论截图（模拟）",
+            "display_name": "喜欢擦台子的圆圆",
+            "visible_role": "自称使用者"
+          },
+          "raw_excerpt": "正文：A500喷洗脸盆干净。评论：“我家石头台面发白了，不知道是不是这个弄的。”作者：“我只有陶瓷盆，没试石头。”页面28条评论，截图停在第二条。"
+        }
+      ]
+    },
+    {
+      "id": "c03",
+      "category": "扩展坞",
+      "user_request": "简单追问：上次拓岸G700两个C口能接我的显示器吗？屏是4K144，还是屏幕直连电脑更好？别重新选一堆型号，不用加车。",
+      "materials": [
+        {
+          "material_id": "c03-s1",
+          "source_identity": {
+            "platform": "已有对话摘录（模拟）",
+            "display_name": "上轮选品记录",
+            "visible_role": "会话记录"
+          },
+          "raw_excerpt": "上轮选定TA-G700-10G-CN七合一，京东169元减已领20元本品券，运费0，已加车一件。"
+        },
+        {
+          "material_id": "c03-s2",
+          "source_identity": {
+            "platform": "原厂接口图（模拟）",
+            "display_name": "拓岸G700说明书",
+            "visible_role": "制造商"
+          },
+          "raw_excerpt": "上行USB-C接电脑。下行C1、C2都是USB3.2 10Gbps数据接口，不支持视频。HDMI2.0最高3840×2160 60Hz。PD仅供电输入，不传数据或视频。"
+        },
+        {
+          "material_id": "c03-s3",
+          "source_identity": {
+            "platform": "显示器说明及用户记录（模拟）",
+            "display_name": "北辰27U144",
+            "visible_role": "制造商及既有使用记录"
+          },
+          "raw_excerpt": "屏幕USB-C视频输入支持3840×2160 144Hz，主机需DP1.4及DSC和合规格线材。用户电脑与现有线材此前已成功直连运行该模式。"
+        }
+      ]
+    },
+    {
+      "id": "c04",
+      "category": "二手电器",
+      "user_request": "上海家里用晨萃F2自动咖啡机，2000元上下，二手也行，更在意出问题后能处理。朋友给了闲鱼、Amazon、Temu和京东截图，请算清楚并比较，别下单。",
+      "materials": [
+        {
+          "material_id": "c04-s1",
+          "source_identity": {
+            "platform": "闲鱼聊天及商品图（模拟）",
+            "display_name": "小顾的闲置",
+            "visible_role": "个人卖家"
+          },
+          "raw_excerpt": "F2-CN220/B，2022年买，1550元，上海运费60。铭牌220–240V 50/60Hz。无原票，卖家说可开机出咖啡，未提供近期完整清洗或内部检查记录；个人承诺7天开机故障退货，退运买家出，无厂商保修承诺。"
+        },
+        {
+          "material_id": "c04-s2",
+          "source_identity": {
+            "platform": "Amazon结算预估页（模拟）",
+            "display_name": "MorningBrew US店",
+            "visible_role": "海外零售商"
+          },
+          "raw_excerpt": "已设上海地址。F2-US120/A，商品199美元、国际运费35美元、进口税费预收23.40美元，合计257.40美元，不含银行卡外币手续费。按1美元=7.20元计算。铭牌120V 60Hz。"
+        },
+        {
+          "material_id": "c04-s3",
+          "source_identity": {
+            "platform": "Temu手机截图（模拟）",
+            "display_name": "Coffee Home EU",
+            "visible_role": "海外零售商"
+          },
+          "raw_excerpt": "当前地区Germany，邮编97070。F2-EU220/A，商品169欧元、运费12欧元、VAT36.20欧元，合计217.20欧元。未显示中国大陆配送及税运费。按1欧元=7.80元计算。"
+        },
+        {
+          "material_id": "c04-s4",
+          "source_identity": {
+            "platform": "区域售后说明（模拟）",
+            "display_name": "晨萃售后条款",
+            "visible_role": "制造商"
+          },
+          "raw_excerpt": "CN220/B凭有效购买凭证在大陆两年维修。US120/A只在原销售地区受理售后，为120V60Hz。EU220/A为220–240V50/60Hz，售后自费寄欧盟仓。不同地区不承诺相同配置。普通插头转换头不改电压。二手保修须审凭证，没有无票保修约定。"
+        },
+        {
+          "material_id": "c04-s5",
+          "source_identity": {
+            "platform": "京东商品行（模拟）",
+            "display_name": "晨萃京东自营店",
+            "visible_role": "零售商"
+          },
+          "raw_excerpt": "全新F2-CN220/B，2099元，已领满1999减100券，运费0，开大陆发票。"
+        },
+        {
+          "material_id": "c04-s6",
+          "source_identity": {
+            "platform": "配件报价（模拟）",
+            "display_name": "稳电配件店",
+            "visible_role": "配件商"
+          },
+          "raw_excerpt": "店员给朋友推荐的降压器260元包邮，输入220V输出110V，没给F2-US120/A匹配凭证，未列改变频率。"
+        }
+      ]
+    },
+    {
+      "id": "c05",
+      "category": "咖啡豆",
+      "user_request": "手冲喜欢中浅烘水洗，有磨豆机，每月500克，这周末要开始喝，一次最多500克，别为优惠多囤。按这些资料选一个，先不付款。",
+      "materials": [
+        {
+          "material_id": "c05-s1",
+          "source_identity": {
+            "platform": "淘宝预售页（模拟）",
+            "display_name": "坡上烘焙",
+            "visible_role": "烘焙商"
+          },
+          "raw_excerpt": "选中不玛G1水洗整豆、中浅烘、1kg。预售价198元，定金20抵40，付定金后尾款158元，无其他优惠。尾款11月1日00:00–23:59，尾款后生产烘焙，7日内发货，运费0。只提供1kg预售规格。"
+        },
+        {
+          "material_id": "c05-s2",
+          "source_identity": {
+            "platform": "京东商品及优惠页（模拟）",
+            "display_name": "坡上烘焙京东店",
+            "visible_role": "零售商"
+          },
+          "raw_excerpt": "不玛G1水洗整豆、中浅烘、500g，2026-10-10烘焙，99元，商品满99包邮，预计10月23日送上海。已领满189减10券。"
+        },
+        {
+          "material_id": "c05-s3",
+          "source_identity": {
+            "platform": "拼多多已选规格（模拟）",
+            "display_name": "咖享量贩店",
+            "visible_role": "零售商"
+          },
+          "raw_excerpt": "标题埃塞风味豆；选中意式拼配深烘整豆1kg，70%阿拉比卡30%罗布斯塔，未显示烘焙日期。拼单139.90元，独购159.90元，运费5元。到手109.90为新客减30，当前账号不满足新客。"
+        },
+        {
+          "material_id": "c05-s4",
+          "source_identity": {
+            "platform": "小红书评论截图（模拟）",
+            "display_name": "每天一杯小野",
+            "visible_role": "手冲爱好者"
+          },
+          "raw_excerpt": "去年买坡上不玛挺干净。照片500g，烘焙日期2025-06-09，正文未提今年批次。"
+        }
+      ]
+    },
+    {
+      "id": "c06",
+      "category": "家具配送",
+      "user_request": "上海六楼没电梯，要120×60厘米橡胶木书桌，门洞72厘米，最好本周六送装。淘宝和拼多多手机里打开了，也发截图。你现在能直接操作手机吗？按截图算总价和周六能不能用，别付款。",
+      "materials": [
+        {
+          "material_id": "c06-s1",
+          "source_identity": {
+            "platform": "会话设备能力记录（模拟）",
+            "display_name": "当前运行环境",
+            "visible_role": "环境观测"
+          },
+          "raw_excerpt": "用户上传两张手机截图。可用手机设备列表为空；没有手机截图流、点击、滑动、输入或启动App工具。桌面购物页也未连接。"
+        },
+        {
+          "material_id": "c06-s2",
+          "source_identity": {
+            "platform": "淘宝商品和客服截图（模拟）",
+            "display_name": "木屿家具店",
+            "visible_role": "家具商家"
+          },
+          "raw_excerpt": "120×60橡胶木拼板桌面+橡胶木腿999元，上海基础运费70。无电梯首层免费，从二楼每层25元，安装80。满1000减80券仅算商品金额，不含服务运费。预计10月25日发货、运输3–5工作日，到站另约送装，未承诺10月24日到。最长包装123×65×12厘米。"
+        },
+        {
+          "material_id": "c06-s3",
+          "source_identity": {
+            "platform": "拼多多商品和客服截图（模拟）",
+            "display_name": "木屿工厂店",
+            "visible_role": "家具商家"
+          },
+          "raw_excerpt": "同规格120×60橡胶木拼板桌面+橡胶木腿。拼单899元，成团可用50元商品券，当前未成团；上海运费170，安装80。送到楼下，上楼费用师傅现场确认，没有报价。预计10月26–28日发货。独购999元，不能用该拼单券。"
+        },
+        {
+          "material_id": "c06-s4",
+          "source_identity": {
+            "platform": "截图附注（模拟）",
+            "display_name": "用户提供",
+            "visible_role": "消费者"
+          },
+          "raw_excerpt": "截图时间10月22日10点，只选上海市，没有完整小区门牌。楼梯转角没量。本周六10月24日。"
+        }
+      ]
+    },
+    {
+      "id": "c07",
+      "category": "投影仪",
+      "user_request": "已有100英寸16:9固定白幕，镜头到幕只能2.60米，幕和机位不能挪。预算4000–7000含支架，不需新幕。夜晚电影、白天偶尔拉帘，PS5要收4K60。比较这些，能投满100寸很重要，不想靠数字缩放或梯形凑。只给建议。",
+      "materials": [
+        {
+          "material_id": "c07-s1",
+          "source_identity": {
+            "platform": "说明书和安装表（模拟）",
+            "display_name": "曜幕P1",
+            "visible_role": "制造商"
+          },
+          "raw_excerpt": "YM-P1-CN，原生面板1920×1080，支持4K60输入后缩放显示，亮度2400CVIA流明。固定光学投射比1.20:1，无光学变焦，数字缩放100%–70%。100寸16:9画面宽221.4厘米，镜头到幕建议265.7厘米。"
+        },
+        {
+          "material_id": "c07-s2",
+          "source_identity": {
+            "platform": "说明书和安装表（模拟）",
+            "display_name": "光筑L2",
+            "visible_role": "制造商"
+          },
+          "raw_excerpt": "GZ-L2-4K-CN，面板原生3840×2160，HDMI接收4K60。1600ANSI流明，光学投射比1.10–1.25:1，光学变焦；该范围不用数字缩放。100寸画面宽221.4厘米。未提供与CVIA的换算关系。"
+        },
+        {
+          "material_id": "c07-s3",
+          "source_identity": {
+            "platform": "包装和测试页（模拟）",
+            "display_name": "星影S3",
+            "visible_role": "制造商"
+          },
+          "raw_excerpt": "XY-S3-FHD-CN，面板1920×1080，支持4K60输入；光学投射比1.10–1.25:1。12000Lux脚注：距镜头0.30米中心点照度。无ANSI/CVIA光通量报告。"
+        },
+        {
+          "material_id": "c07-s4",
+          "source_identity": {
+            "platform": "京东商品选项与优惠截图（模拟）",
+            "display_name": "各品牌自营店",
+            "visible_role": "零售商"
+          },
+          "raw_excerpt": "P1单机4299元，已领满4000减300券，架199元；L2单机5999元，已领满5999减500券，架199元；S3单机4299元，已领200元本品券，架299元。各券只减对应主机，架另付，各单运费0。"
+        },
+        {
+          "material_id": "c07-s5",
+          "source_identity": {
+            "platform": "淘宝默认套装截图（模拟）",
+            "display_name": "光筑投影官方店",
+            "visible_role": "零售商"
+          },
+          "raw_excerpt": "默认GZ-L2-4K-CN影院套装6599元，已领满6000减300券包邮，含同主机、支架、120英寸软幕和流媒体棒。主图同时展示单机及套装。"
+        },
+        {
+          "material_id": "c07-s6",
+          "source_identity": {
+            "platform": "B站片段及评论截图（模拟）",
+            "display_name": "客厅器材笔记",
+            "visible_role": "自称评测作者"
+          },
+          "raw_excerpt": "标题：一万多亮度吊打两千流明？02:12 S3标12000Lux，P1标2400CVIA。口述：没有统一曝光，手机自己调亮。页面46条评论，只加载3条，无后续页。"
+        }
+      ]
+    },
+    {
+      "id": "c08",
+      "category": "便携游戏本",
+      "user_request": "预算10000–15000，游戏本每周背出去三四次，1080p玩FPS和3A，偶尔CUDA练习。连原装电源和线必须不超3.0公斤，硬要求。比较两个完整配置，别只看宣传帧数；低价店配置不同也指出。只要建议。",
+      "materials": [
+        {
+          "material_id": "c08-s1",
+          "source_identity": {
+            "platform": "原厂规格单（模拟）",
+            "display_name": "巡风G14",
+            "visible_role": "制造商"
+          },
+          "raw_excerpt": "完整SKU XF-G14-8945HS-5070-32-1T-CN。Ryzen9 8945HS，RTX5070 Laptop8GB/90W，原厂32GB（16×2）+1TB。机身1.82kg、原装电源0.62kg、电源线0.09kg，均分别称重不含包装。14.5英寸2560×1600/165Hz，大陆两年保修。"
+        },
+        {
+          "material_id": "c08-s2",
+          "source_identity": {
+            "platform": "原厂规格单（模拟）",
+            "display_name": "砺战G16",
+            "visible_role": "制造商"
+          },
+          "raw_excerpt": "完整SKU LZ-G16-14650HX-5070TI-32-1T-CN。i7-14650HX，RTX5070Ti Laptop12GB/140W，原厂32GB（16×2）+1TB。机身2.40kg、原装电源1.06kg、线0.11kg，不含包装；16英寸2560×1600/240Hz，大陆两年保修。没提供轻便小功率电源的性能测试。"
+        },
+        {
+          "material_id": "c08-s3",
+          "source_identity": {
+            "platform": "评测室原始记录（模拟）",
+            "display_name": "桌边实验室",
+            "visible_role": "测试作者"
+          },
+          "raw_excerpt": "DB-26-1080：同版本GameR内置基准，1080p最高画质，光追关、DLSS/FSR/XeSS关、帧生成关；均插电、独显、厂商性能模式，25℃，三次均值。G14原始渲染82fps/1%Low61，G16原始98fps/1%Low74。未测电池、轻便电源或均衡模式。"
+        },
+        {
+          "material_id": "c08-s4",
+          "source_identity": {
+            "platform": "B站字幕及设置截图（模拟）",
+            "display_name": "开机就玩阿岳",
+            "visible_role": "体验作者"
+          },
+          "raw_excerpt": "标题G16的192帧是G14的73帧两倍多。00:30 G16狂暴模式、DLSS平衡、帧生成2倍，显示192fps；01:02 G14均衡模式、DLSS关、帧生成关，73fps。均1080p，没给同模式对照。"
+        },
+        {
+          "material_id": "c08-s5",
+          "source_identity": {
+            "platform": "京东完整配置商品行（模拟）",
+            "display_name": "巡风及砺战自营店",
+            "visible_role": "零售商"
+          },
+          "raw_excerpt": "XF-G14-8945HS-5070-32-1T-CN为12999元，已领满12000减500券；LZ-G16-14650HX-5070TI-32-1T-CN为13999元，已领满13000减1000券；包邮，都含上述原装电源线。"
+        },
+        {
+          "material_id": "c08-s6",
+          "source_identity": {
+            "platform": "淘宝低价规格截图（模拟）",
+            "display_name": "巡风数码专营店",
+            "visible_role": "零售商"
+          },
+          "raw_excerpt": "主图G14全系列10999起；已选XF-G14-8945HS-5070-16-512-CN，16GB单条+512GB，10999包邮。32GB1TB未选、价格未展示；客服说加钱可升级，没给报价或原厂配置凭证。"
+        }
+      ]
+    }
+  ]
+}

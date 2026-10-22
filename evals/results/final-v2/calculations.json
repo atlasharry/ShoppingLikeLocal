@@ -1,0 +1,63 @@
+{
+  "method": "Coordinator independently recomputed from supplied numeric materials with Decimal arithmetic, before inspecting final answers. Does not establish real market facts.",
+  "observed_at_utc": "2026-10-22T15:33:28.348895+00:00",
+  "cases": {
+    "c01": {
+      "C20_checkout": "999",
+      "L30_checkout": "1199",
+      "C20_6000mg_total": "1596",
+      "L30_6000mg_total": "1199",
+      "saving": "397"
+    },
+    "c02": {
+      "A_single": "29.90",
+      "A_group_conditional": "21.90",
+      "B_single_delivered": "50.90"
+    },
+    "c03": {
+      "historical_price_only": "149"
+    },
+    "c04": {
+      "used": "1610",
+      "amazon_prepaid_estimate": "1853.2800",
+      "amazon_plus_unverified_transformer": "2113.2800",
+      "temu_Germany_only": "1694.1600",
+      "JD": "1999",
+      "JD_minus_used": "389"
+    },
+    "c05": {
+      "deposit_total": "178",
+      "deposit_500g_equivalent_not_buyable_spec": "89",
+      "JD_one_bag": "99",
+      "JD_two_bags_out_of_scope": "188",
+      "PDD_group_conditional_delivered": "144.90",
+      "PDD_single_delivered": "164.90"
+    },
+    "c06": {
+      "taobao": "1274",
+      "PDD_group_known_subtotal": "1099",
+      "PDD_single_known_subtotal": "1249"
+    },
+    "c07": {
+      "width_m": "2.214",
+      "P1_required_distance_m": "2.65680",
+      "required_ratio": "1.174345076784101174345076784",
+      "L2_distance_min_m": "2.43540",
+      "L2_distance_max_m": "2.76750",
+      "P1_max_diagonal_inch": "97.86208973200843119542306534",
+      "P1_total": "4198",
+      "L2_JD_total": "5698",
+      "S3_total": "4398",
+      "L2_TB_bundle": "6299",
+      "L2_TB_extra": "601"
+    },
+    "c08": {
+      "G14_kg": "2.53",
+      "G16_kg": "3.57",
+      "G14_CNY": "12499",
+      "G16_CNY": "12999",
+      "G16_raw_advantage_pct": "19.51219512195121951219512200",
+      "G16_low_advantage_pct": "21.31147540983606557377049180"
+    }
+  }
+}
