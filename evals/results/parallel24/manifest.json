@@ -1,0 +1,37 @@
+{
+  "frozen_at_utc": "2026-10-22T17:37:56.626015+00:00",
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sha256": "4ec906abd594f43953b782210b9024134623343cdaed6afaed32fd6bd991d336"
+    },
+    {
+      "path": "references/evidence-schema.md",
+      "sha256": "d3e73564dfd8c406e3a0919a8798cf41d3d8ed8da86cc3fb30fbc9352e40bb7c"
+    },
+    {
+      "path": "references/mobile-control.md",
+      "sha256": "8c7e1d69e033161ec9deeb9e3491b79f7940183abd667d8d2b258a00d85069de"
+    },
+    {
+      "path": "references/platforms.md",
+      "sha256": "1aaa28afc9208a0ac5f5d2a75fe34e42bc2bd04dc46977cf46b4f9bc5cf35857"
+    },
+    {
+      "path": "references/price-delivery-purchase.md",
+      "sha256": "bd3682a6f8c4d312687df9910f243991c9c18817c16a3fd94c1df13397247a39"
+    },
+    {
+      "path": "references/product-evidence.md",
+      "sha256": "960f94ae209720ed57b3f3ce505c185e01f6a97d842845dabda8dc497adb3a88"
+    },
+    {
+      "path": "references/sources-and-video.md",
+      "sha256": "b1dc5ca2f76e112037188e15340dd4e5749a9880042b64d8da0cb4e960a43cec"
+    },
+    {
+      "path": "evals/cases.json",
+      "sha256": "c72870a2667650fa13c3eab8b032bdd81b188c93a449cf0190b336d5a64131c7"
+    }
+  ]
+}

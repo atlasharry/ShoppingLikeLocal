@@ -1,0 +1,42 @@
+{
+  "frozen_at_utc": "2026-10-22T17:49:56.937194+00:00",
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sha256": "4ec906abd594f43953b782210b9024134623343cdaed6afaed32fd6bd991d336"
+    },
+    {
+      "path": "references/evidence-schema.md",
+      "sha256": "d3e73564dfd8c406e3a0919a8798cf41d3d8ed8da86cc3fb30fbc9352e40bb7c"
+    },
+    {
+      "path": "references/expansion-notes.md",
+      "sha256": "00484791a9c30f9f2c2c0d00de8940b81f28e9a9e3881aa68a554d6213d7fa60"
+    },
+    {
+      "path": "references/mobile-control.md",
+      "sha256": "5b9a466dfcf5c283d9b172b0c7f5c8bbc1527432432dcd7ebd598d98a258380f"
+    },
+    {
+      "path": "references/platforms.md",
+      "sha256": "7919ea0f5d4f84cbf3975725aa0cdb61b6af69841488bd45592e7ac6d7f753d0"
+    },
+    {
+      "path": "references/price-delivery-purchase.md",
+      "sha256": "6c5c69493f6c05244fc09879502b414f6823e58212a0fe0182303efd528bd0dc"
+    },
+    {
+      "path": "references/product-evidence.md",
+      "sha256": "e21414c55853e7220565bcb36c5bae2047d8fcdf267bf0d653dd4ea71d5ea4b5"
+    },
+    {
+      "path": "references/sources-and-video.md",
+      "sha256": "3c8a395be6c3a78f2956310ff2972d772c9ce9905ffbb2c2571fc530a47bb4fb"
+    },
+    {
+      "path": "evals/cases.json",
+      "sha256": "c72870a2667650fa13c3eab8b032bdd81b188c93a449cf0190b336d5a64131c7"
+    }
+  ],
+  "note": "Final release-candidate instructions; separate from previous final-v2 and parallel24 snapshots."
+}

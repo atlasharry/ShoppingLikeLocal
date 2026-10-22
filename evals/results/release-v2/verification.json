@@ -1,0 +1,105 @@
+{
+  "frozen_at_utc": "2026-10-22T17:49:56.937194+00:00",
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sha256": "4ec906abd594f43953b782210b9024134623343cdaed6afaed32fd6bd991d336"
+    },
+    {
+      "path": "references/evidence-schema.md",
+      "sha256": "d3e73564dfd8c406e3a0919a8798cf41d3d8ed8da86cc3fb30fbc9352e40bb7c"
+    },
+    {
+      "path": "references/expansion-notes.md",
+      "sha256": "00484791a9c30f9f2c2c0d00de8940b81f28e9a9e3881aa68a554d6213d7fa60"
+    },
+    {
+      "path": "references/mobile-control.md",
+      "sha256": "5b9a466dfcf5c283d9b172b0c7f5c8bbc1527432432dcd7ebd598d98a258380f"
+    },
+    {
+      "path": "references/platforms.md",
+      "sha256": "7919ea0f5d4f84cbf3975725aa0cdb61b6af69841488bd45592e7ac6d7f753d0"
+    },
+    {
+      "path": "references/price-delivery-purchase.md",
+      "sha256": "6c5c69493f6c05244fc09879502b414f6823e58212a0fe0182303efd528bd0dc"
+    },
+    {
+      "path": "references/product-evidence.md",
+      "sha256": "e21414c55853e7220565bcb36c5bae2047d8fcdf267bf0d653dd4ea71d5ea4b5"
+    },
+    {
+      "path": "references/sources-and-video.md",
+      "sha256": "3c8a395be6c3a78f2956310ff2972d772c9ce9905ffbb2c2571fc530a47bb4fb"
+    },
+    {
+      "path": "evals/cases.json",
+      "sha256": "c72870a2667650fa13c3eab8b032bdd81b188c93a449cf0190b336d5a64131c7"
+    }
+  ],
+  "note": "Final release-candidate instructions; separate from previous final-v2 and parallel24 snapshots.",
+  "answers": [
+    {
+      "case_id": "c01",
+      "path": "answers/c01.md",
+      "sha256": "8a8f074ad0940e09506eff76caf12586eca624bcb2481d86c3aa7be7af5ed0b1",
+      "input_sha256": "c148091e9b508d73786de1ecd7ab2d310b976f298e47c2c1b5ffa2cc6be08154"
+    },
+    {
+      "case_id": "c02",
+      "path": "answers/c02.md",
+      "sha256": "f2c371c7e738c77ca6e73edfb0b0e4b339ac4e073993473fe63c414601826100",
+      "input_sha256": "b0152d4c9faf00fabae074debcfb7207cc15130dbe04752ffe7b4e3ba0e53e37"
+    },
+    {
+      "case_id": "c03",
+      "path": "answers/c03.md",
+      "sha256": "05d40131adcab4b0e4523e9c394beb3f4fc4ae66b7b869362cc5c710e9bbba75",
+      "input_sha256": "b95b968a762e34a073230acbdfaca3d740ffd8b00ad63f7a8b99143fb51e49e7"
+    },
+    {
+      "case_id": "c04",
+      "path": "answers/c04.md",
+      "sha256": "522025d2efb2e6040b576626b4ef3fbe847d3bbf384b1642f727a5bb7d6a8ec2",
+      "input_sha256": "557da28074199313c3ccb2bb272e14fd1a46efcece9e84381ef7741718b86207"
+    },
+    {
+      "case_id": "c05",
+      "path": "answers/c05.md",
+      "sha256": "6c641e18448bb39b706884fe4896559795667c7b4627b37f97ea72e0f0d15d4b",
+      "input_sha256": "fd525bb01bacb8e40d0a32fa05b9facdebfe30749b7107d0fad1c1afde16cdd2"
+    },
+    {
+      "case_id": "c06",
+      "path": "answers/c06.md",
+      "sha256": "7c2a306b4eafcd088965d764e3407a20627e2f8c6fb5a848ea348443241df38d",
+      "input_sha256": "26353ef3abc93ec8cb94c56b9e0b707f98771937ba1893464d0c0715dcf39553"
+    },
+    {
+      "case_id": "c07",
+      "path": "answers/c07.md",
+      "sha256": "b8989ae3ee253b5840b1153c8611f10d177d86392aef35ea5c7ff66a1839462d",
+      "input_sha256": "fd2ada5bac54ef70fc1c123d4b486adba0840a18fb733187330a853d1a425bb6"
+    },
+    {
+      "case_id": "c08",
+      "path": "answers/c08.md",
+      "sha256": "a81d8516c121ca7860b4bbcae3a3004de3da6dc001307fae335d08722715ef56",
+      "input_sha256": "067c2be4a5f364695c84121bcee90cd268b50e1d4f172f25ddccff2052797839"
+    }
+  ],
+  "post_run_observed_at_utc": "2026-10-22T17:54:23.566553+00:00",
+  "instruction_files_unchanged": true,
+  "execution": {
+    "cases": 8,
+    "contexts": "one fresh solver per case",
+    "network_and_ui": "unavailable in synthetic case environment",
+    "exact_effective_model": "unavailable",
+    "exact_sampling_settings": "unavailable",
+    "repetitions_per_case": 1,
+    "rubric_provided_to_solver": false,
+    "grader_generated_answers": false
+  },
+  "packaged_grading_sha256": "7f0aad9f18e4ed0f60f937f27c40c9dbfc4e063759b342fcccc6e4eb5466f1b6"
+}

@@ -6,21 +6,23 @@
 
 - skill-creator的quick_validate.py通过，git diff --check通过；本地引用和公开信息检查分别执行。
 - 独立review发现两项问题：产品/报价字段归属不一致、临时输入可能借用自动保存正文。均已修正并独立复核。
-- 最终离线运行前后，SKILL.md、六份参考和cases.json共八份冻结文件哈希一致，见[冻结清单](evals/results/final-v2/manifest.json)。
-- 10月23日补充手机实测和买家报告，未修改上述八份冻结文件；不把文档补充称作一次新的八案运行。
+- 此前八案离线运行前后，SKILL.md、六份参考和cases.json共八份冻结文件哈希一致，见[历史冻结清单](evals/results/final-v2/manifest.json)。
+- 10月23日先补手机材料到a7c0af9，随后并行审查发现周期购授权与安全拒绝边界两项缺口，修改四份参考，并补强评论分母规则。当前快照与原八案不同；[20项静态复核和三个定向案例](evals/results/followup-2026-10-23/summary.md)单列，不冒充原八案全量重跑。
+- 扩容后[24个工作包](evals/results/parallel24/summary.md)完成进一步调查，合入多品类及国际市场规则；随后重新冻结9份输入，最终八案重跑完成。当前结论以[release-v2](evals/results/release-v2/summary.md)为准。
 
 ## 离线行为验证
 
 | 范围 | 实际结果 |
 |---|---|
-| 最终候选8案 | 每案独立新上下文；8/8满足所用评分项，46项800/800 |
+| 最终发布候选8案 | release-v2，每案独立新上下文；8/8满足所用评分项，46项800/800；9份冻结输入前后相同 |
+| 中间快照与定向检查 | parallel24八案797/800；更早final-v2八案800/800；周期购/安全拒绝/评论分母三个定向回答符合各自判据，单列不混计 |
 | 旧版对照 | 仅c07投影仪、c08游戏本保存答案；两案均100，候选同两案均100，差值0 |
 | 无技能对照/重复试验 | 本轮未做；不能估计净收益或稳定性 |
-| 评分独立性 | 评分者未生成答案，但知道版本标签，也看到过早期评分摘要；不是盲评 |
+| 评分独立性 | 最终评分者未生成答案、未读历史分数，知道版本标签，非盲评；更早final-v2评分者见过早期摘要，其限制保留 |
 | 模型与设置 | 精确生效模型、推理和采样设置不可得，未补造 |
-| 计时 | 2026-10-22 23:31:39至23:40:28（Asia/Shanghai）的冻结至完成观察窗口，不冒充推理耗时 |
+| 计时 | 各轮manifest记录冻结与完成观察时点；不是纯推理耗时，不合并多个快照时间 |
 
-全部为合成离线材料。公开[报告与答案](evals/results/final-v2/summary.md)、[评分](evals/results/final-v2/grading.json)、[规则](evals/rubric.json)及[运行约束](evals/results/final-v2/run-protocol.md)供复核。配对结果不支持准确率提升；未提供的旧版六案不补零。
+全部为合成离线材料。公开最终[报告与答案](evals/results/release-v2/summary.md)、[评分](evals/results/release-v2/grading.json)、[规则](evals/rubric.json)及[运行记录](evals/results/release-v2/verification.json)供复核。配对结果不支持准确率提升；未提供的旧版六案不补零。
 
 ## 真实平台
 

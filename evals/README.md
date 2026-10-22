@@ -13,7 +13,7 @@
 
 ## 本次实际执行
 
-最终候选已按每案独立新上下文运行八案，答案、哈希清单、实际观察时间、评分与限制见 [final-v2报告](results/final-v2/summary.md)。[旧版保存答案](results/v1-baseline.md)只覆盖c07/c08，不是八案完整基线，也未补造历史运行设置。
+最终发布候选已按每案独立新上下文重跑八案，得分800/800，见 [release-v2报告](results/release-v2/summary.md)。保留此前[final-v2快照](results/final-v2/summary.md)、[三个定向案例](results/followup-2026-10-23/summary.md)及[24工作包中的中间797分](results/parallel24/summary.md)，各自绑定不同输入快照，不混计。各轮答案、哈希、观察时间和限制均可查。[旧版保存答案](results/v1-baseline.md)只覆盖c07/c08，不是八案完整基线，也未补造历史运行设置。
 
 [评分规则](rubric.json)为生成答案前冻结的设计文件，其status字段记录设计时状态；实际执行状态以结果报告为准。解题代理不接收评分规则。100分表示满足这套有限评分项，不代表现实准确率100%。本次配对两案没有观察到分数提升。
 

@@ -42,9 +42,11 @@ git clone https://github.com/atlasharry/ShoppingLikeLocal.git ~/.codex/skills/sh
 - [来源与视频](references/sources-and-video.md)：推广信号、评论覆盖、视频片段。
 - [价格与履约](references/price-delivery-purchase.md)：实付、配送和交易阶段。
 - [平台与地区](references/platforms.md)：平台差异和能力覆盖。
+- [全球与多品类反例](references/expansion-notes.md)：Amazon/Temu、历史比价、床品、印花洗护、直板夹和安装配件的公开资料边界。
 - [手机控制](references/mobile-control.md)：接入、输入回读、恢复和交接。
 - [记录约定](references/evidence-schema.md)：产品、主张、报价和访问状态。
 - [验证记录](validation.md)、[离线评测](evals/README.md)：区分格式、离线和真实操作证据。
+- [24个并行工作包](evals/results/parallel24/summary.md)：公开调查、品类反例及独立审查，保留中间评分而非只报最好结果。
 - [投影仪报告](examples/living-room-projector.md)、[便携游戏本报告](examples/portable-gaming-laptop.md)、[真实平台覆盖](examples/platform-validation-2026-10-22.md)。
 - [拼多多手机补验](examples/mobile-comparison-2026-10-23.md)：两个真实选款、报价及配送对比，含系列起价和拆封商品的处理。
 - [本轮Review](REVIEW.md)：改动、方法参考、评测结果和发布缺口。

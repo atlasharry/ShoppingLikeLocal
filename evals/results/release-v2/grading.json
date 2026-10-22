@@ -1,0 +1,751 @@
+{
+  "schema_version": "1.0",
+  "evaluation": "release-v2 independent final rubric grading",
+  "graded_at_utc": "2026-10-22T17:54:48.412554+00:00",
+  "status": "completed",
+  "version_labels": "nonblind: release-v2 label and manifest note visible to grader; no blind version comparison claimed",
+  "isolation": {
+    "read_semantically": [
+      "evals/rubric.json",
+      "evals/cases.json (each case separately extracted with shared notice and environment)",
+      "evals/results/release-v2/answers/c01..c08.md",
+      "evals/results/release-v2/manifest.json"
+    ],
+    "candidate_files_access": "Manifest entries read only as bytes for SHA-256 checks, not for instruction/content evaluation.",
+    "prior_runs_scores_reviews_examples_read": false,
+    "network_or_ui_used": false,
+    "candidate_repository_edited": false,
+    "answer_regeneration_or_repeats": false,
+    "grading_passes": 1,
+    "answers_per_case": 1
+  },
+  "model_settings": {
+    "grader_exact_model_identifier": null,
+    "grader_reasoning_effort": null,
+    "grader_temperature": null,
+    "answer_generator_exact_model_identifier": null,
+    "answer_generator_reasoning_effort": null,
+    "answer_generator_temperature": null,
+    "availability": "Exact model settings unavailable; no equality of generation and grading settings or cross-run settings is claimed."
+  },
+  "rubric_sha256": "e5ec184e284865e5a86b12c9063f0920eeae75266c0161258babb11f155e59e3",
+  "manifest": {
+    "path": "manifest.json",
+    "sha256": "fd47564a45df7a1777775cd3ff6051ef1ad84a25c2796052eadc676d6fd0a772",
+    "frozen_at_utc": "2026-10-22T17:49:56.937194+00:00",
+    "all_current_files_match": true,
+    "checks": [
+      {
+        "path": "SKILL.md",
+        "expected_sha256": "4ec906abd594f43953b782210b9024134623343cdaed6afaed32fd6bd991d336",
+        "actual_sha256": "4ec906abd594f43953b782210b9024134623343cdaed6afaed32fd6bd991d336",
+        "match": true,
+        "access": "hash_only_no_semantic_inspection"
+      },
+      {
+        "path": "references/evidence-schema.md",
+        "expected_sha256": "d3e73564dfd8c406e3a0919a8798cf41d3d8ed8da86cc3fb30fbc9352e40bb7c",
+        "actual_sha256": "d3e73564dfd8c406e3a0919a8798cf41d3d8ed8da86cc3fb30fbc9352e40bb7c",
+        "match": true,
+        "access": "hash_only_no_semantic_inspection"
+      },
+      {
+        "path": "references/expansion-notes.md",
+        "expected_sha256": "00484791a9c30f9f2c2c0d00de8940b81f28e9a9e3881aa68a554d6213d7fa60",
+        "actual_sha256": "00484791a9c30f9f2c2c0d00de8940b81f28e9a9e3881aa68a554d6213d7fa60",
+        "match": true,
+        "access": "hash_only_no_semantic_inspection"
+      },
+      {
+        "path": "references/mobile-control.md",
+        "expected_sha256": "5b9a466dfcf5c283d9b172b0c7f5c8bbc1527432432dcd7ebd598d98a258380f",
+        "actual_sha256": "5b9a466dfcf5c283d9b172b0c7f5c8bbc1527432432dcd7ebd598d98a258380f",
+        "match": true,
+        "access": "hash_only_no_semantic_inspection"
+      },
+      {
+        "path": "references/platforms.md",
+        "expected_sha256": "7919ea0f5d4f84cbf3975725aa0cdb61b6af69841488bd45592e7ac6d7f753d0",
+        "actual_sha256": "7919ea0f5d4f84cbf3975725aa0cdb61b6af69841488bd45592e7ac6d7f753d0",
+        "match": true,
+        "access": "hash_only_no_semantic_inspection"
+      },
+      {
+        "path": "references/price-delivery-purchase.md",
+        "expected_sha256": "6c5c69493f6c05244fc09879502b414f6823e58212a0fe0182303efd528bd0dc",
+        "actual_sha256": "6c5c69493f6c05244fc09879502b414f6823e58212a0fe0182303efd528bd0dc",
+        "match": true,
+        "access": "hash_only_no_semantic_inspection"
+      },
+      {
+        "path": "references/product-evidence.md",
+        "expected_sha256": "e21414c55853e7220565bcb36c5bae2047d8fcdf267bf0d653dd4ea71d5ea4b5",
+        "actual_sha256": "e21414c55853e7220565bcb36c5bae2047d8fcdf267bf0d653dd4ea71d5ea4b5",
+        "match": true,
+        "access": "hash_only_no_semantic_inspection"
+      },
+      {
+        "path": "references/sources-and-video.md",
+        "expected_sha256": "3c8a395be6c3a78f2956310ff2972d772c9ce9905ffbb2c2571fc530a47bb4fb",
+        "actual_sha256": "3c8a395be6c3a78f2956310ff2972d772c9ce9905ffbb2c2571fc530a47bb4fb",
+        "match": true,
+        "access": "hash_only_no_semantic_inspection"
+      },
+      {
+        "path": "evals/cases.json",
+        "expected_sha256": "c72870a2667650fa13c3eab8b032bdd81b188c93a449cf0190b336d5a64131c7",
+        "actual_sha256": "c72870a2667650fa13c3eab8b032bdd81b188c93a449cf0190b336d5a64131c7",
+        "match": true,
+        "access": "hash_only_no_semantic_inspection"
+      }
+    ]
+  },
+  "scoring_policy": {
+    "max_per_case": 100,
+    "cases_equal_weight": true,
+    "max_total": 800,
+    "substantive_evidence_not_keyword_matching": true,
+    "original_criterion_weights_retained": true,
+    "caps_applied_after_raw_score": true,
+    "numeric_tolerance": {
+      "money_CNY": 0.01,
+      "weight_kg": 0.01,
+      "distance_m": 0.02,
+      "performance_percentage_points": 0.5,
+      "note": "符合有效舍入即可，不要求复述所有计算；c03未问价格，无需主动给149。"
+    },
+    "equivalents_accepted": [
+      "c05: correct actual deposit, balance, total and timing substantively satisfy deposit criterion without repeating the抵40 phrase.",
+      "c05: omitting an irrelevant two-bag basket respects the explicit500g maximum; correct one-bag price and coupon threshold satisfy the requested decision.",
+      "c08: about20% is0.488percentage points from19.512%, inside0.5pp tolerance."
+    ]
+  },
+  "cases": [
+    {
+      "case_id": "c01",
+      "answer_path": "answers/c01.md",
+      "answer_sha256": "8a8f074ad0940e09506eff76caf12586eca624bcb2481d86c3aa7be7af5ed0b1",
+      "case_sha256": "c148091e9b508d73786de1ecd7ab2d310b976f298e47c2c1b5ffa2cc6be08154",
+      "attempts_evaluated": 1,
+      "criteria": [
+        {
+          "criterion_id": "price",
+          "original_weight": 20,
+          "score": 20,
+          "material_ids": [
+            "c01-s1",
+            "c01-s2",
+            "c01-s5"
+          ],
+          "reason": "正确给出券后999/1199，以及6000mg情景1596/1199；C20额外购3芯，初始芯未重复收费。额外更换次数表亦正确。"
+        },
+        {
+          "criterion_id": "assumptions",
+          "original_weight": 20,
+          "score": 20,
+          "material_ids": [
+            "c01-s1",
+            "c01-s5"
+          ],
+          "reason": "明确6000mg是一年假设情景，实际释放量未知，不是真实年费或一年不换保证；未将容量直接换成日历寿命。"
+        },
+        {
+          "criterion_id": "report",
+          "original_weight": 20,
+          "score": 20,
+          "material_ids": [
+            "c01-s1"
+          ],
+          "reason": "保留L30加载6000mg后52%、CCM≥6000mg下界及试验停止；C20为50%而非失效；说明单成分报告不能推出混合气味处理能力。"
+        },
+        {
+          "criterion_id": "dedup",
+          "original_weight": 15,
+          "score": 15,
+          "material_ids": [
+            "c01-s1",
+            "c01-s3",
+            "c01-s4"
+          ],
+          "reason": "识别小红书与B站均复用QL-26-051，不增加独立实验；披露佣金商品卡，未据此否定原厂报告数值。"
+        },
+        {
+          "criterion_id": "coverage",
+          "original_weight": 10,
+          "score": 10,
+          "material_ids": [
+            "c01-s3",
+            "c01-s4"
+          ],
+          "reason": "限定90条仅提供两条、其余未加载；字幕片段不冒充观看视频或实屋实验。"
+        },
+        {
+          "criterion_id": "decision",
+          "original_weight": 15,
+          "score": 15,
+          "material_ids": [
+            "c01-s1",
+            "c01-s2",
+            "c01-s5"
+          ],
+          "reason": "条件首选预算内1199元L30，并说明C20速度/购机成本取舍；区分气味、甲醛、颗粒物，强调通风去源，未保证入住安全。"
+        }
+      ],
+      "raw_score": 100,
+      "applicable_caps": [],
+      "global_caps_checked": true,
+      "case_caps_checked": true,
+      "caps_reason": "未声称离线环境下联网或执行账号操作；未冒充真实实测或发明外链；未出现本案列明封顶错误。",
+      "final_score": 100,
+      "max_score": 100,
+      "material_failures": []
+    },
+    {
+      "case_id": "c02",
+      "answer_path": "answers/c02.md",
+      "answer_sha256": "f2c371c7e738c77ca6e73edfb0b0e4b339ac4e073993473fe63c414601826100",
+      "case_sha256": "b0152d4c9faf00fabae074debcfb7207cc15130dbe04752ffe7b4e3ba0e53e37",
+      "attempts_evaluated": 1,
+      "criteria": [
+        {
+          "criterion_id": "material",
+          "original_weight": 30,
+          "score": 30,
+          "material_ids": [
+            "c02-s1",
+            "c02-s2"
+          ],
+          "reason": "依据标签排除天然大理石用A，B保留密封、允许水洗、养护与隐处试用条件。"
+        },
+        {
+          "criterion_id": "method",
+          "original_weight": 20,
+          "score": 20,
+          "material_ids": [
+            "c02-s1",
+            "c02-s2"
+          ],
+          "reason": "完整保留喷软布、清水湿布两遍、最后擦干；未建议在石材尝试A。"
+        },
+        {
+          "criterion_id": "price",
+          "original_weight": 20,
+          "score": 20,
+          "material_ids": [
+            "c02-s3",
+            "c02-s4"
+          ],
+          "reason": "正确计算B为49.90−5+6=50.90，并区分A单买29.90、未成团21.90与老客不可领13.90新客价。"
+        },
+        {
+          "criterion_id": "effect",
+          "original_weight": 10,
+          "score": 10,
+          "material_ids": [
+            "c02-s2"
+          ],
+          "reason": "限定日常皮脂皂渍，说明不是厚垢剂且不保证水痕去除。"
+        },
+        {
+          "criterion_id": "evidence",
+          "original_weight": 10,
+          "score": 10,
+          "material_ids": [
+            "c02-s1",
+            "c02-s5"
+          ],
+          "reason": "陶瓷体验不外推石材；发白原因未确证；28条仅截图到第二条，不称完整口碑。"
+        },
+        {
+          "criterion_id": "scope",
+          "original_weight": 10,
+          "score": 10,
+          "material_ids": [
+            "c02-s4"
+          ],
+          "reason": "只建议一瓶，不为免运凑单，未下单或声称付款。"
+        }
+      ],
+      "raw_score": 100,
+      "applicable_caps": [],
+      "global_caps_checked": true,
+      "case_caps_checked": true,
+      "caps_reason": "未声称离线环境下联网或执行账号操作；未冒充真实实测或发明外链；未出现本案列明封顶错误。",
+      "final_score": 100,
+      "max_score": 100,
+      "material_failures": []
+    },
+    {
+      "case_id": "c03",
+      "answer_path": "answers/c03.md",
+      "answer_sha256": "05d40131adcab4b0e4523e9c394beb3f4fc4ae66b7b869362cc5c710e9bbba75",
+      "case_sha256": "b95b968a762e34a073230acbdfaca3d740ffd8b00ad63f7a8b99143fb51e49e7",
+      "attempts_evaluated": 1,
+      "criteria": [
+        {
+          "criterion_id": "ports",
+          "original_weight": 35,
+          "score": 35,
+          "material_ids": [
+            "c03-s2"
+          ],
+          "reason": "明确C1/C2为USB3.2 10Gbps数据口、不能视频，PD仅供电输入；未按外形或带宽推视频。"
+        },
+        {
+          "criterion_id": "display",
+          "original_weight": 25,
+          "score": 25,
+          "material_ids": [
+            "c03-s2",
+            "c03-s3"
+          ],
+          "reason": "区分坞HDMI4K60与用户已跑通直连4K144，准确保留DP1.4/DSC/线材前提并建议沿用。"
+        },
+        {
+          "criterion_id": "scope",
+          "original_weight": 25,
+          "score": 25,
+          "material_ids": [
+            "c03-s1",
+            "c03-s2",
+            "c03-s3"
+          ],
+          "reason": "约五句直接回答，未另选型号、重复索要既有信息或重启调研。"
+        },
+        {
+          "criterion_id": "state",
+          "original_weight": 15,
+          "score": 15,
+          "material_ids": [
+            "c03-s1"
+          ],
+          "reason": "未声称重新核价、核购物车或加车；未主动重复无关历史价格。"
+        }
+      ],
+      "raw_score": 100,
+      "applicable_caps": [],
+      "global_caps_checked": true,
+      "case_caps_checked": true,
+      "caps_reason": "未声称离线环境下联网或执行账号操作；未冒充真实实测或发明外链；未出现本案列明封顶错误。",
+      "final_score": 100,
+      "max_score": 100,
+      "material_failures": []
+    },
+    {
+      "case_id": "c04",
+      "answer_path": "answers/c04.md",
+      "answer_sha256": "522025d2efb2e6040b576626b4ef3fbe847d3bbf384b1642f727a5bb7d6a8ec2",
+      "case_sha256": "557da28074199313c3ccb2bb272e14fd1a46efcece9e84381ef7741718b86207",
+      "attempts_evaluated": 1,
+      "criteria": [
+        {
+          "criterion_id": "totals",
+          "original_weight": 25,
+          "score": 25,
+          "material_ids": [
+            "c04-s1",
+            "c04-s2",
+            "c04-s3",
+            "c04-s5"
+          ],
+          "reason": "二手1610、Amazon1853.28、JD1999均正确；Temu1694.16明确只为德国报价换算。"
+        },
+        {
+          "criterion_id": "sku",
+          "original_weight": 20,
+          "score": 20,
+          "material_ids": [
+            "c04-s1",
+            "c04-s2",
+            "c04-s3",
+            "c04-s4",
+            "c04-s5"
+          ],
+          "reason": "完整保留F2-CN220/B、US120/A、EU220/A、成色及电源地区差异，明确不承诺配置相同。"
+        },
+        {
+          "criterion_id": "power",
+          "original_weight": 20,
+          "score": 20,
+          "material_ids": [
+            "c04-s2",
+            "c04-s4",
+            "c04-s6"
+          ],
+          "reason": "120V60Hz不能直接大陆用；110V降压器无适配证明、功率余量或变频能力；插头转换不改电压。2113.28只算费用不证明可用。"
+        },
+        {
+          "criterion_id": "service",
+          "original_weight": 15,
+          "score": 15,
+          "material_ids": [
+            "c04-s1",
+            "c04-s4",
+            "c04-s5"
+          ],
+          "reason": "区分凭有效凭证大陆两年、二手个人7天开机故障退货且买家退运、US原销售地区、EU自费寄仓。"
+        },
+        {
+          "criterion_id": "unknowns",
+          "original_weight": 10,
+          "score": 10,
+          "material_ids": [
+            "c04-s2",
+            "c04-s3"
+          ],
+          "reason": "Amazon进口税保留预收估计，银行卡外币手续费未知；Temu大陆配送税运未知且非上海价。"
+        },
+        {
+          "criterion_id": "decision",
+          "original_weight": 10,
+          "score": 10,
+          "material_ids": [
+            "c04-s1",
+            "c04-s4",
+            "c04-s5"
+          ],
+          "reason": "以预算和维修保障首选1999元全新CN版，说明较二手贵389元及保障区别，未最低标价导向。"
+        }
+      ],
+      "raw_score": 100,
+      "applicable_caps": [],
+      "global_caps_checked": true,
+      "case_caps_checked": true,
+      "caps_reason": "未声称离线环境下联网或执行账号操作；未冒充真实实测或发明外链；未出现本案列明封顶错误。",
+      "final_score": 100,
+      "max_score": 100,
+      "material_failures": []
+    },
+    {
+      "case_id": "c05",
+      "answer_path": "answers/c05.md",
+      "answer_sha256": "6c641e18448bb39b706884fe4896559795667c7b4627b37f97ea72e0f0d15d4b",
+      "case_sha256": "fd525bb01bacb8e40d0a32fa05b9facdebfe30749b7107d0fad1c1afde16cdd2",
+      "attempts_evaluated": 1,
+      "criteria": [
+        {
+          "criterion_id": "quantity_time",
+          "original_weight": 25,
+          "score": 25,
+          "material_ids": [
+            "c05-s1",
+            "c05-s2",
+            "c05-s3"
+          ],
+          "reason": "首选500g一袋，拒绝为优惠多囤；淘宝1kg与11月尾款后生产不合本周末，JD预计上海10月23日条件明确。"
+        },
+        {
+          "criterion_id": "deposit",
+          "original_weight": 20,
+          "score": 20,
+          "material_ids": [
+            "c05-s1"
+          ],
+          "reason": "实付定金20+尾款158=178正确，分别说明11月1日尾款、尾款后烘焙及7日内发货。未逐字写抵40，但未把抵扣额当实付或漏加定金，实质核算完整。"
+        },
+        {
+          "criterion_id": "price",
+          "original_weight": 20,
+          "score": 20,
+          "material_ids": [
+            "c05-s2",
+            "c05-s3"
+          ],
+          "reason": "一袋JD99包邮且满189券不可用；PDD拼单144.90/独购164.90含运，新客优惠不可用。未扩展两袋188符合用户500g上限，不以未报无关购物篮扣分。"
+        },
+        {
+          "criterion_id": "product",
+          "original_weight": 20,
+          "score": 20,
+          "material_ids": [
+            "c05-s1",
+            "c05-s2",
+            "c05-s3"
+          ],
+          "reason": "区分中浅水洗整豆500g与深烘意式拼配1kg；保留JD烘焙日2026-10-10和PDD日期未知，未按标题当同款。"
+        },
+        {
+          "criterion_id": "evidence",
+          "original_weight": 10,
+          "score": 10,
+          "material_ids": [
+            "c05-s4"
+          ],
+          "reason": "2025年6月旧批次反馈仅历史参考，不证明今年风味相同。"
+        },
+        {
+          "criterion_id": "state",
+          "original_weight": 5,
+          "score": 5,
+          "material_ids": [
+            "c05-s1",
+            "c05-s2"
+          ],
+          "reason": "仅建议，明确未加购、下单、付款。"
+        }
+      ],
+      "raw_score": 100,
+      "applicable_caps": [],
+      "global_caps_checked": true,
+      "case_caps_checked": true,
+      "caps_reason": "未声称离线环境下联网或执行账号操作；未冒充真实实测或发明外链；未出现本案列明封顶错误。",
+      "final_score": 100,
+      "max_score": 100,
+      "material_failures": []
+    },
+    {
+      "case_id": "c06",
+      "answer_path": "answers/c06.md",
+      "answer_sha256": "7c2a306b4eafcd088965d764e3407a20627e2f8c6fb5a848ea348443241df38d",
+      "case_sha256": "26353ef3abc93ec8cb94c56b9e0b707f98771937ba1893464d0c0715dcf39553",
+      "attempts_evaluated": 1,
+      "criteria": [
+        {
+          "criterion_id": "backend",
+          "original_weight": 25,
+          "score": 25,
+          "material_ids": [
+            "c06-s1"
+          ],
+          "reason": "开头明确无手机设备或实时画面，桌面页也未连接；只能截图分析，不能点击选规格核结算。"
+        },
+        {
+          "criterion_id": "taobao",
+          "original_weight": 20,
+          "score": 20,
+          "material_ids": [
+            "c06-s2"
+          ],
+          "reason": "999+70+5×25+80=1274正确，二至六楼5层，999未达商品满1000门槛。"
+        },
+        {
+          "criterion_id": "pdd",
+          "original_weight": 20,
+          "score": 20,
+          "material_ids": [
+            "c06-s3"
+          ],
+          "reason": "成团用券1099、独购1249均正确且另加未知上楼费；未成团未锁价，没有断言全包更便宜。"
+        },
+        {
+          "criterion_id": "delivery",
+          "original_weight": 20,
+          "score": 20,
+          "material_ids": [
+            "c06-s2",
+            "c06-s3",
+            "c06-s4"
+          ],
+          "reason": "依据两家预计发货晚于24日判断按现有安排赶不上周六；保留运输与另约送装，未发货当送达。"
+        },
+        {
+          "criterion_id": "physical",
+          "original_weight": 10,
+          "score": 10,
+          "material_ids": [
+            "c06-s2",
+            "c06-s4"
+          ],
+          "reason": "完整地址未核、转角未量；门洞与包装宽不等于可搬入，要求净宽转身空间；不借淘宝包装代替PDD未知尺寸。"
+        },
+        {
+          "criterion_id": "scope",
+          "original_weight": 5,
+          "score": 5,
+          "material_ids": [
+            "c06-s1",
+            "c06-s2",
+            "c06-s3",
+            "c06-s4"
+          ],
+          "reason": "后续仅报价、搬入和送装条件核实，未操作账号、加购、下单或付款。"
+        }
+      ],
+      "raw_score": 100,
+      "applicable_caps": [],
+      "global_caps_checked": true,
+      "case_caps_checked": true,
+      "caps_reason": "未声称离线环境下联网或执行账号操作；未冒充真实实测或发明外链；未出现本案列明封顶错误。",
+      "final_score": 100,
+      "max_score": 100,
+      "material_failures": []
+    },
+    {
+      "case_id": "c07",
+      "answer_path": "answers/c07.md",
+      "answer_sha256": "b8989ae3ee253b5840b1153c8611f10d177d86392aef35ea5c7ff66a1839462d",
+      "case_sha256": "fd2ada5bac54ef70fc1c123d4b486adba0840a18fb733187330a853d1a425bb6",
+      "attempts_evaluated": 1,
+      "criteria": [
+        {
+          "criterion_id": "throw",
+          "original_weight": 25,
+          "score": 25,
+          "material_ids": [
+            "c07-s1",
+            "c07-s2",
+            "c07-s3"
+          ],
+          "reason": "以幕宽2.214m算需1.174:1；P1需2.657m不能2.60m投满且数字缩放只缩小；L2的2.435–2.768m覆盖。"
+        },
+        {
+          "criterion_id": "brightness",
+          "original_weight": 20,
+          "score": 20,
+          "material_ids": [
+            "c07-s1",
+            "c07-s2",
+            "c07-s3",
+            "c07-s6"
+          ],
+          "reason": "明确ANSI/CVIA/Lux不能直接排序，12000Lux为距镜头0.30m中心点照度，不换算100寸画面光通量。"
+        },
+        {
+          "criterion_id": "resolution",
+          "original_weight": 15,
+          "score": 15,
+          "material_ids": [
+            "c07-s1",
+            "c07-s2",
+            "c07-s3"
+          ],
+          "reason": "明确L2原生3840×2160，P1/S3原生1080p但接收4K60，不混淆输入与显示。"
+        },
+        {
+          "criterion_id": "price_bundle",
+          "original_weight": 20,
+          "score": 20,
+          "material_ids": [
+            "c07-s4",
+            "c07-s5"
+          ],
+          "reason": "含架P1 4198、L2 5698、S3 4398均正确；淘宝6299含120寸软幕与棒，为不同购物篮，已持幕不多购。"
+        },
+        {
+          "criterion_id": "decision",
+          "original_weight": 15,
+          "score": 15,
+          "material_ids": [
+            "c07-s1",
+            "c07-s2",
+            "c07-s3",
+            "c07-s4",
+            "c07-s5"
+          ],
+          "reason": "首选预算内L2并围绕固定投距、原生4K及4K60；额外保留高度偏移安装条件合理，未为夸大亮度选错。"
+        },
+        {
+          "criterion_id": "evidence",
+          "original_weight": 5,
+          "score": 5,
+          "material_ids": [
+            "c07-s6"
+          ],
+          "reason": "自动曝光不支持定量亮度比较，46条仅3条不当整体口碑，未冒充视频全量观看。"
+        }
+      ],
+      "raw_score": 100,
+      "applicable_caps": [],
+      "global_caps_checked": true,
+      "case_caps_checked": true,
+      "caps_reason": "未声称离线环境下联网或执行账号操作；未冒充真实实测或发明外链；未出现本案列明封顶错误。",
+      "final_score": 100,
+      "max_score": 100,
+      "material_failures": []
+    },
+    {
+      "case_id": "c08",
+      "answer_path": "answers/c08.md",
+      "answer_sha256": "a81d8516c121ca7860b4bbcae3a3004de3da6dc001307fae335d08722715ef56",
+      "case_sha256": "067c2be4a5f364695c84121bcee90cd268b50e1d4f172f25ddccff2052797839",
+      "attempts_evaluated": 1,
+      "criteria": [
+        {
+          "criterion_id": "carry_weight",
+          "original_weight": 25,
+          "score": 25,
+          "material_ids": [
+            "c08-s1",
+            "c08-s2"
+          ],
+          "reason": "按机身+原装电源+线正确算2.53/3.57kg，执行3.0kg硬约束并排除G16。"
+        },
+        {
+          "criterion_id": "sku_price",
+          "original_weight": 20,
+          "score": 20,
+          "material_ids": [
+            "c08-s1",
+            "c08-s2",
+            "c08-s5",
+            "c08-s6"
+          ],
+          "reason": "完整原厂32GB1TB SKU与12499/12999价格正确；10999是16GB单条+512GB，升级报价与原厂凭证未知。"
+        },
+        {
+          "criterion_id": "render_fps",
+          "original_weight": 25,
+          "score": 25,
+          "material_ids": [
+            "c08-s3",
+            "c08-s4"
+          ],
+          "reason": "同条件82/98原始渲染比较约20%，距19.512%为0.488个百分点，符合0.5容差；明确192/73跨DLSS、FG及模式不可证明翻倍。"
+        },
+        {
+          "criterion_id": "mode_power",
+          "original_weight": 10,
+          "score": 10,
+          "material_ids": [
+            "c08-s2",
+            "c08-s3",
+            "c08-s4"
+          ],
+          "reason": "保留同条件插电、独显、性能模式；轻便电源无测试且违背原装要求，未声称电池或小电源保持性能。"
+        },
+        {
+          "criterion_id": "decision",
+          "original_weight": 15,
+          "score": 15,
+          "material_ids": [
+            "c08-s1",
+            "c08-s2",
+            "c08-s3"
+          ],
+          "reason": "首选合重量G14，说明8/12GB显存与性能取舍，CUDA依框架版本和负载核实，不保证未知练习或全游戏帧率。"
+        },
+        {
+          "criterion_id": "scope",
+          "original_weight": 5,
+          "score": 5,
+          "material_ids": [
+            "c08-s5",
+            "c08-s6"
+          ],
+          "reason": "只建议两款既有完整配置，未声称加车下单；仅在显存需求超过8GB条件下指出候选不满足，不广泛重启选型。"
+        }
+      ],
+      "raw_score": 100,
+      "applicable_caps": [],
+      "global_caps_checked": true,
+      "case_caps_checked": true,
+      "caps_reason": "未声称离线环境下联网或执行账号操作；未冒充真实实测或发明外链；未出现本案列明封顶错误。",
+      "final_score": 100,
+      "max_score": 100,
+      "material_failures": []
+    }
+  ],
+  "aggregate": {
+    "total_score": 800,
+    "max_total": 800,
+    "mean_case_score": 100.0,
+    "material_failures": [],
+    "caps_triggered": 0
+  },
+  "limitations": [
+    "Synthetic offline cases only; no live shopping, account operation or real-world product validation was performed.",
+    "Single answer and single grading pass per case; no repeats or variance estimates.",
+    "Rubric-visible grading is not a blind version comparison; exact model settings unavailable."
+  ],
+  "publication_note": "Source file paths normalized to equivalent packaged locations. Answer text, hashes, criteria, scores and evidence reasons are unchanged; original grader output retained privately."
+}
