@@ -1,6 +1,6 @@
 # ShoppingLikeLocal
 
-作者：[atlasharry](https://github.com/atlasharry) · MIT
+作者：[atlasharry](https://github.com/atlasharry)、[rsun17](https://github.com/rsun17) · MIT
 
 从当地使用证据出发，核对准确产品、真实报价与送达条件。面向中国及国际购物平台，可通过浏览器、原生电脑或已连接手机继续同一项研究。
 
@@ -49,6 +49,7 @@ git clone https://github.com/atlasharry/ShoppingLikeLocal.git ~/.codex/skills/sh
 - [24个并行工作包](evals/results/parallel24/summary.md)：公开调查、品类反例及独立审查，保留中间评分而非只报最好结果。
 - [投影仪报告](examples/living-room-projector.md)、[便携游戏本报告](examples/portable-gaming-laptop.md)、[真实平台覆盖](examples/platform-validation-2026-10-22.md)。
 - [拼多多手机补验](examples/mobile-comparison-2026-10-23.md)：两个真实选款、报价及配送对比，含系列起价和拆封商品的处理。
+- [百元内舒适耳机实测流程](examples/comfortable-earphones-under-100.md)：需求帖与部分评论、视频抽看、京东与淘宝官方同款核价及重庆配送，明确保留未完成项。
 - [本轮Review](REVIEW.md)：改动、方法参考、评测结果和发布缺口。
 - [第一版清洁剂案例](examples/bathroom-cleaner.md)：历史匿名案例，价格不代表现在。
 
